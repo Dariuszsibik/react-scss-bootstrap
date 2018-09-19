@@ -1,8 +1,6 @@
+@import 'base/variables.scss';
 @import 'bootstrap/scss/bootstrap.scss';
-.test {
-    background-color: black;
-}
-
-h2 {
-    color: green;
-}
+@import 'base/mixins.scss';
+@import 'base/typography.scss';
+@import 'components/components.scss';
+@import 'pages/pages.scss';
