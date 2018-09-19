@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Nav from './components/Nav.js'
 import './scss/index.scss'
-import Header from './components/Header.js';
+import Nav from './components/Nav.js';
+import Hero from './components/Hero.js';
 
 class App extends Component {
 /*
@@ -51,9 +51,9 @@ class App extends Component {
   */
 
     return (
-      <div className="test">
-        <Header/>
+      <div>
         <Nav/>
+        <Hero/>
       </div>
     );
   }

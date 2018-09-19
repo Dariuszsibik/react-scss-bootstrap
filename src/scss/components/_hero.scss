@@ -1,0 +1,9 @@
+.ds-hero {
+    background: url('../images/banner.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.ds-hero-subheader {
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 2px rgba($ds-gray-900, 1));
+}
