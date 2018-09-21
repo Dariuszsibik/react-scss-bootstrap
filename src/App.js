@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './scss/index.scss'
 import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
+import Footer from './components/Footer.js';
 
 class App extends Component {
 /*
@@ -54,6 +55,7 @@ class App extends Component {
       <div>
         <Nav/>
         <Hero/>
+        <Footer/>
       </div>
     );
   }

@@ -1,6 +1,25 @@
 .ds-hero {
-    background: url('../images/banner.jpg') 50% 50% no-repeat;
+    position: relative;
+    margin-bottom: 0;
+    background: url('../images/banner3.jpg') 50% 50% no-repeat;
     background-size: cover;
+    &:after {
+        @include bg-overlay($ds-black,
+        .4);
+    }
+}
+
+.ds-hero-content {
+    @include relative-zindex
+}
+
+.ds-hero-header {
+    margin-bottom: .85rem;
+    letter-spacing: .55rem;
+    text-shadow: 0 2px 0 rgba($ds-gray-900, 1);
+    @include media-breakpoint-up(md) {
+        font-size: 3.06rem;
+    }
 }
 
 .ds-hero-subheader {
