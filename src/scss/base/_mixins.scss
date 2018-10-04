@@ -18,3 +18,9 @@
     position: relative;
     z-index: 1000;
 }
+
+// rozmiar
+@mixin ds-size($w, $h) {
+    width: $w;
+    height: $h;
+}

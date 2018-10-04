@@ -30,3 +30,8 @@
 .ds-footer-contact-item {
     padding: .2rem 0;
 }
+
+.ds-social-box {
+    @include ds-size(26px,
+    26px);
+}

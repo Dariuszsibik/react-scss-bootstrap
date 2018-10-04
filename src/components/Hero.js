@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Design from '../images/design-subheader.png';
+import SocialIconFb from '../images/social/social-icon-fb.png';
+import SocialIconLin from '../images/social/social-icon-plus.png';
+import SocialIconGit from '../images/social/social-icon-twit.png';
+
 
 class Hero extends Component {
     render() {
@@ -8,6 +12,23 @@ class Hero extends Component {
                     <div className="container ds-hero-content">
                         <h1 className="text-white ds-hero-header">Tekst</h1>
                         <img className="img-fluid ds-hero-subheader" src={Design} alt="" ></img>
+                        <div class="d-flex justify-content-center">
+                                    <span class="bg-primary text-center ds-social-box">
+                                        <a href="https://www.facebook.com/dariusz.sibik">
+                                            <img src={SocialIconFb} alt="social"/>
+                                        </a>
+                                    </span>
+                                    <span class="bg-primary text-center ds-social-box">
+                                        <a href="https://www.facebook.com/dariusz.sibik">
+                                            <img src={SocialIconLin} alt="social"/>
+                                        </a>
+                                    </span>
+                                    <span class="bg-primary text-center ds-social-box">
+                                        <a href="https://www.facebook.com/dariusz.sibik">
+                                            <img src={SocialIconGit} alt="social"/>
+                                        </a>
+                                    </span>
+                                </div>
                     </div>
                 </div>
         )
