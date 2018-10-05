@@ -39,18 +39,18 @@ class Footer extends Component {
                                         <span className="mr-2"><img src={FooterIconEmail} alt="Adres" /></span>sibikdariusz@gmail.com
                                     </li>
                                 </ul>
-                                <div class="d-flex justify-content-around w-75">
-                                    <span class="bg-primary text-center ds-social-box">
+                                <div className="d-flex justify-content-around w-75">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconFb} alt="social"/>
                                         </a>
                                     </span>
-                                    <span class="bg-primary text-center ds-social-box">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconLin} alt="social"/>
                                         </a>
                                     </span>
-                                    <span class="bg-primary text-center ds-social-box">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconGit} alt="social"/>
                                         </a>
@@ -59,6 +59,13 @@ class Footer extends Component {
                             </div>
                             <div className="col-md-6 col-lg-3 mb-5">
                                 <h4 className="text-uppercase text-white">Newsletter</h4>
+                                <form action="">
+                                    <div className="form-group ds-newsletter-form-group">
+                                        <label className="ds-footer-text" htmlFor="email">lorem ipsum dolor sit amet</label>
+                                        <input className="form-control form-control-sm w-75 ds-newsletter-form-control" type="email" id="email" placeholder="adres email"/>
+                                    </div>
+                                    <button className="btn btn-primary text-white text-uppercase ds-newsletter-btn">Subskrybuj</button>
+                                </form>
                             </div>
                         </div>
                     </div>

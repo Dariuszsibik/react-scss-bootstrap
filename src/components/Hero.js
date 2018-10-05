@@ -12,23 +12,23 @@ class Hero extends Component {
                     <div className="container ds-hero-content">
                         <h1 className="text-white ds-hero-header">Tekst</h1>
                         <img className="img-fluid ds-hero-subheader" src={Design} alt="" ></img>
-                        <div class="d-flex justify-content-center">
-                                    <span class="bg-primary text-center ds-social-box">
+                        <div className="d-flex justify-content-center">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconFb} alt="social"/>
                                         </a>
                                     </span>
-                                    <span class="bg-primary text-center ds-social-box">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconLin} alt="social"/>
                                         </a>
                                     </span>
-                                    <span class="bg-primary text-center ds-social-box">
+                                    <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
                                             <img src={SocialIconGit} alt="social"/>
                                         </a>
                                     </span>
-                                </div>
+                        </div>
                     </div>
                 </div>
         )

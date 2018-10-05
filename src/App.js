@@ -3,6 +3,7 @@ import './scss/index.scss'
 import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
+import Copyright from './components/Copyright';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
         <Nav/>
         <Hero/>
         <Footer/>
+        <Copyright/>
       </div>
     );
   }

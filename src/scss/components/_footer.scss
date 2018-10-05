@@ -35,3 +35,29 @@
     @include ds-size(26px,
     26px);
 }
+
+// kolumna newsletter
+.ds-newsletter-form-group {
+    margin-bottom: .75rem;
+}
+
+.ds-newsletter-form-control {
+    height: 1.55rem;
+    font-size: .75rem;
+}
+
+.ds-newsletter-btn {
+    padding: .25rem 1rem;
+    font-size: .625rem;
+}
+
+// copyright
+.ds-copy {
+    padding: 1rem 0;
+    font-size: .625rem;
+}
+
+.ds-copy-second {
+    margin-top: .25rem;
+    font-size: .5625rem;
+}
