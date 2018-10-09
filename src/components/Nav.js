@@ -7,7 +7,7 @@ class Header extends Component {
                     <div className="container">
                         <ul className="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
                             <li className="nav-item ds-header-item-active">
-                                <a className="nav-link ds-header-item-link" href="/">Strona Główna</a>
+                                <a className="nav-link ds-header-item-link" href="/test">Strona Głównaa</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white ds-header-item-link" href="/">Realizacje</a>

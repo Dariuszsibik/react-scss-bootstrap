@@ -7,8 +7,9 @@ import Copyright from './components/Copyright';
 import Welcome from './components/Welcome';
 import Education from './components/Education';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
+  Switch,
   Link
 } from 'react-router-dom';
 
@@ -18,19 +19,22 @@ class App extends Component {
   render() {
 
     return (
-      <Router>
+      <HashRouter>
       <div>
           <Nav/>
           <Hero/>
-          <Route exact path="/" component={Welcome} />
-          <Route path="/test" component={Education} />
-          <Welcome/>
+          <Link to="/">start</Link>
+          <Link to="test">test</Link>
+          <Switch>
+          <Route exact path='/' component={Welcome} />
+          <Route path='/test' component={Education}/>
+          </Switch>
           <Footer/>
           <Copyright/>
 
       </div>
 
-      </Router>
+      </HashRouter>
       );
   }
 }
