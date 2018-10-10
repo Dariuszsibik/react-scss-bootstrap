@@ -9,8 +9,7 @@ import Education from './components/Education';
 import {
   HashRouter,
   Route,
-  Switch,
-  Link
+  Switch
 } from 'react-router-dom';
 
 
@@ -23,12 +22,10 @@ class App extends Component {
       <div>
           <Nav/>
           <Hero/>
-          <Link to="/">start</Link>
-          <Link to="test">test</Link>
-          <Switch>
-          <Route exact path='/' component={Welcome} />
-          <Route path='/test' component={Education}/>
-          </Switch>
+            <Switch>
+                <Route exact path='/' component={Welcome} />
+                <Route path='/test' component={Education}/>
+            </Switch>
           <Footer/>
           <Copyright/>
 

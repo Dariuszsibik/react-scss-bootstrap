@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -7,24 +8,22 @@ class Header extends Component {
                     <div className="container">
                         <ul className="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
                             <li className="nav-item ds-header-item-active">
-                                <a className="nav-link ds-header-item-link" href="/test">Strona Głównaa</a>
+                                <Link activeClassName="active" className="nav-link ds-header-item-link" to="/">Strona Główna</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white ds-header-item-link" href="/">Realizacje</a>
+                                <Link className="nav-link ds-header-item-link" to="/realizacje">Realizacje</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white ds-header-item-link" href="/">Usługa</a>
+                                <Link className="nav-link ds-header-item-link" to="/usluga">Usługa</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white ds-header-item-link" href="/">Aktualności</a>
+                                <Link className="nav-link ds-header-item-link" to="/aktualnosci">Aktualności</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white ds-header-item-link" href="/">Sklep</a>
+                                <Link className="nav-link ds-header-item-link" to="/sklep">Sklep</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white ds-header-item-link" href="/">O nas
-                                    <img src="" alt="" />
-                                </a>
+                            <Link className="nav-link ds-header-item-link" to="/onas">O nas<img src="" alt="" /></Link>
                             </li>
                         </ul>
                     </div>
