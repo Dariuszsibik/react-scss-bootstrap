@@ -18,20 +18,20 @@ class App extends Component {
   render() {
 
     return (
-      <HashRouter>
-      <div>
-          <Nav/>
-          <Hero/>
+        <HashRouter>
+          <div>
+            <Nav />
+            <Hero />
             <Switch>
                 <Route exact path='/' component={Welcome} />
-                <Route path='/test' component={Education}/>
+                <Route path='/test' component={Education} />
             </Switch>
-          <Footer/>
-          <Copyright/>
+            <Footer />
+            <Copyright />
 
-      </div>
+          </div>
 
-      </HashRouter>
+        </HashRouter>
       );
   }
 }

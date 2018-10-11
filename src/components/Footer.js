@@ -10,20 +10,23 @@ import SocialIconGit from '../images/social/social-icon-twit.png';
 class Footer extends Component {
     render() {
         return (
+
                 <div className="ds-footer-top">
                     <div className="container ds-footer-top-content">
                         <div className="row">
                             <div className="col-md-6 col-lg-3 mb-5">
                                 <h4 className="text-uppercase text-white">O nas</h4>
-                                <p className="ds-footer-text ds-footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatum, ratione ducimus sunt voluptates rem perspiciatis tempora sint minus provident, ipsum voluptas esse, fugiat autem temporibus vitae eum nobis! Necessitatibus.</p>
+                                <p className="ds-footer-text ds-footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Veritatis voluptatum, ratione ducimus sunt voluptates rem perspiciatis tempora sint minus
+                                    provident, ipsum voluptas esse, fugiat autem temporibus vitae eum nobis! Necessitatibus.</p>
                             </div>
                             <div className="col-md-6 col-lg-3 mb-5">
                                 <h4 className="text-uppercase text-white">Nawigacja</h4>
                                 <ul className="list-unstyled">
-                                            <li><a className="ds-footer-text" href="/">Regulamin serwisu</a></li>
-                                            <li><a className="ds-footer-text" href="/">Logowanie</a></li>
-                                            <li><a className="ds-footer-text" href="/">Wsparcie serwisu</a></li>
-                                            <li><a className="ds-footer-text" href="/">FAQ & POMOC</a></li>
+                                    <li><a className="ds-footer-text" href="/">Regulamin serwisu</a></li>
+                                    <li><a className="ds-footer-text" href="/">Logowanie</a></li>
+                                    <li><a className="ds-footer-text" href="/">Wsparcie serwisu</a></li>
+                                    <li><a className="ds-footer-text" href="/">FAQ & POMOC</a></li>
                                 </ul>
                             </div>
                             <div className="col-md-6 col-lg-3 mb-5">
@@ -42,17 +45,17 @@ class Footer extends Component {
                                 <div className="d-flex justify-content-around w-75">
                                     <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
-                                            <img src={SocialIconFb} alt="social"/>
+                                            <img src={SocialIconFb} alt="social" />
                                         </a>
                                     </span>
                                     <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
-                                            <img src={SocialIconLin} alt="social"/>
+                                            <img src={SocialIconLin} alt="social" />
                                         </a>
                                     </span>
                                     <span className="bg-primary text-center ds-social-box">
                                         <a href="https://www.facebook.com/dariusz.sibik">
-                                            <img src={SocialIconGit} alt="social"/>
+                                            <img src={SocialIconGit} alt="social" />
                                         </a>
                                     </span>
                                 </div>
@@ -62,7 +65,8 @@ class Footer extends Component {
                                 <form action="">
                                     <div className="form-group ds-newsletter-form-group">
                                         <label className="ds-footer-text" htmlFor="email">lorem ipsum dolor sit amet</label>
-                                        <input className="form-control form-control-sm w-75 ds-newsletter-form-control" type="email" id="email" placeholder="adres email"/>
+                                        <input className="form-control form-control-sm w-75 ds-newsletter-form-control" type="email" id="email"
+                                            placeholder="adres email" />
                                     </div>
                                     <button className="btn btn-primary text-white text-uppercase ds-newsletter-btn">Subskrybuj</button>
                                 </form>
@@ -70,6 +74,7 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
+
         )
     }
 }

@@ -1,33 +1,35 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 class Header extends Component {
     render() {
         return (
+
                 <div className="bg-ds-dark ds-header">
                     <div className="container">
                         <ul className="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
                             <li className="nav-item ds-header-item-active">
-                                <Link activeClassName="active" className="nav-link ds-header-item-link" to="/">Strona Główna</Link>
+                                <NavLink to="/" activeClassName="active" className="nav-link ds-header-item-link">Strona Główna</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link ds-header-item-link" to="/realizacje">Realizacje</Link>
+                                <NavLink to="/realizacje" className="nav-link ds-header-item-link">Realizacje</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link ds-header-item-link" to="/usluga">Usługa</Link>
+                                <NavLink to="/usluga" className="nav-link ds-header-item-link">Usługa</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link ds-header-item-link" to="/aktualnosci">Aktualności</Link>
+                                <NavLink to="/aktualnosci" className="nav-link ds-header-item-link">Aktualności</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link ds-header-item-link" to="/sklep">Sklep</Link>
+                                <NavLink to="/sklep" className="nav-link ds-header-item-link">Sklep</NavLink>
                             </li>
                             <li className="nav-item">
-                            <Link className="nav-link ds-header-item-link" to="/onas">O nas<img src="" alt="" /></Link>
+                                <NavLink to="/onas" className="nav-link ds-header-item-link">O nas<img src="" alt="" /></NavLink>
                             </li>
                         </ul>
                     </div>
                 </div>
+
         )
     }
 }
