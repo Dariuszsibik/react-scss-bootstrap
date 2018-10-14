@@ -29,3 +29,8 @@
 @mixin ds-font-light-secondary {
     font-weight: 300;
 } 
+
+// podstawowe przejscie
+@mixin ds-basic-transition {
+    transition: all .25s ease-in-out;
+}

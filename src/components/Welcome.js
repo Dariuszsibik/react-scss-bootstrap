@@ -20,7 +20,7 @@ const Welcome = () => (
                             cumque, numquam sint error fuga esse dolorem repellat! Molestias dolore veniam ullam voluptas,
                             animi eaque totam et commodi eum.</p>
                         <div className="d-none d-md-flex align-items-center text-uppercase ds-services-group ds-text-small">
-                            <div className="ds-services-item">
+                            <div className="ds-services-item active">
                                 <a href="https://dariuszsibik.github.io/react-scss-bootstrap/">
                                     <img className="d-block mx-auto" src={IkonaWnetrz} alt="usługa" />
                                     <span className="d-block ds-services-item-title">Projektowanie wnętrz</span>
