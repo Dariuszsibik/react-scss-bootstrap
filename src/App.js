@@ -23,10 +23,10 @@ class App extends Component {
           <div>
             <Nav />
             <Hero />
-            <Realizacje/>
             <Switch>
                 <Route exact path='/' component={Welcome} />
                 <Route path='/test' component={Education} />
+                <Route path='/Realizacje' component={Realizacje} />
             </Switch>
             <Footer />
             <Copyright />

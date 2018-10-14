@@ -18,7 +18,7 @@ const Realizacje = () => (
                             <div className="ds-portfolio-box-img ds-portfolio-img-overlay">
                                 <img className="img-fluid" src={RealizacjeTitle1} alt="Realizacja 1"/>
                             </div>
-                            <div className="text-center ds-portfolio-box-text">
+                            <div className="text-center text-white ds-portfolio-box-text">
                                 <h3 className="text-uppercase ds-portfolio-box-title">Najnowszy projekt</h3>
                                 <p classNam="d-none d-md-block">lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum </p>
                             </div>
