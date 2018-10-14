@@ -6,6 +6,7 @@ import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
 import Welcome from './components/Welcome';
 import Education from './components/Education';
+import Realizacje from './components/Realizacje';
 import {
   HashRouter,
   Route,
@@ -22,6 +23,7 @@ class App extends Component {
           <div>
             <Nav />
             <Hero />
+            <Realizacje/>
             <Switch>
                 <Route exact path='/' component={Welcome} />
                 <Route path='/test' component={Education} />
