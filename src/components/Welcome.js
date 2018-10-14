@@ -19,7 +19,7 @@ const Welcome = () => (
                         <p className="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus nemo
                             cumque, numquam sint error fuga esse dolorem repellat! Molestias dolore veniam ullam voluptas,
                             animi eaque totam et commodi eum.</p>
-                        <div className="d-none d-md-flex align-items-center text-uppercase ds-ervices-group ds-text-small">
+                        <div className="d-none d-md-flex align-items-center text-uppercase ds-services-group ds-text-small">
                             <div className="ds-services-item">
                                 <a href="https://dariuszsibik.github.io/react-scss-bootstrap/">
                                     <img className="d-block mx-auto" src={IkonaWnetrz} alt="usługa" />

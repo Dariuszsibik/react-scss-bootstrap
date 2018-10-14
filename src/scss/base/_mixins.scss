@@ -24,3 +24,8 @@
     width: $w;
     height: $h;
 }
+
+//tekst 300 secondary
+@mixin ds-font-light-secondary {
+    font-weight: 300;
+} 
