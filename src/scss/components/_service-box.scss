@@ -1,0 +1,38 @@
+.ds-services-box {
+    margin-bottom: 40px;
+}
+
+.ds-services-box-top {
+    margin-bottom: 1.4rem;
+}
+
+.ds-services-box-img {
+    margin: 10px 20px 0 10px;
+    @include relative-zindex;
+}
+
+.ds-services-box-title {
+    margin-top: 1.75rem;
+}
+
+.ds-services-box-header {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    @include ds-font-light-secondary;
+}
+
+.ds-services-box-text {
+    line-height: 2;
+}
+
+.ds-services-box-shadow {
+    position: relative;
+    top: 0;
+    left: 15px;
+    background-color: rgba($ds-black, .075);
+    @include ds-size(85px, 85px);
+}
+
+.ds-services-box-shadow.active {
+    background-color: rgba($ds-accent-color, 1);
+}

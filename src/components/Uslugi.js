@@ -67,7 +67,7 @@ const Uslugi = () => (
                     <div className="col-md-6 col-lg-4">
                         <div className="ds-services-box">
                             <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
+                                <div className="ds-services-box-shadow active"></div>
                                 <div className="d-flex ds-services-box-img">
                                     <img src={Uslugi1} alt="usługa 1"/>
                                 </div>
