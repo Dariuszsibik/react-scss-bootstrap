@@ -22,7 +22,7 @@ const Realizacje = () => (
                             </div>
                             <div className="text-center text-white ds-portfolio-box-text">
                                 <h3 className="text-uppercase ds-portfolio-box-title">Najnowszy projekt</h3>
-                                <p classNam="d-none d-md-block">lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum </p>
+                                <p className="d-none d-md-block">lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum </p>
                             </div>
                         </div>
                     </div>
