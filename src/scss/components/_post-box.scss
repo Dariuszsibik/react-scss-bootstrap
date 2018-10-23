@@ -1,0 +1,27 @@
+.ds-post-box {
+    position: relative;
+}
+
+.ds-post-box-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    @include ds-size(75px, 75px);
+    @include media-breakpoint-up(md) {
+        @include ds-size(95px, 95px);
+    }
+}
+
+.ds-post-box-date-body {
+    max-width: 90%;
+    @include media-breakpoint-up(md) {
+        max-width: 45%;
+    }
+}
+
+.ds-post-box-date-value {
+    margin-top: .3rem;
+    font-size: .625rem;
+    @include ds-font-light-secondary;
+}
