@@ -7,6 +7,7 @@ import Copyright from './components/Copyright';
 import Welcome from './components/Welcome';
 import Education from './components/Education';
 import Realizacje from './components/Realizacje';
+import Aktualnosci from './components/Aktualnosci';
 import {
   HashRouter,
   Route,
@@ -27,6 +28,8 @@ class App extends Component {
                 <Route exact path='/' component={Welcome} />
                 <Route path='/test' component={Education} />
                 <Route path='/Realizacje' component={Realizacje} />
+                <Route path='/Aktualnosci' component={Aktualnosci} />
+
             </Switch>
             <Footer />
             <Copyright />
