@@ -1,7 +1,7 @@
 import React from 'react';
-import Aktualnosci1 from '../images/pages/aktualnosci-front-1.jpg';
-import Aktualnosci2 from '../images/pages/aktualnosci-front-2.jpg';
-import DateIcon from '../images/ui/date-icon.png';
+import Aktualnosci1 from '../../images/pages/aktualnosci-front-1.jpg';
+import Aktualnosci2 from '../../images/pages/aktualnosci-front-2.jpg';
+import DateIcon from '../../images/ui/date-icon.png';
 
 const Aktualnosci = () => (
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Uslugi1 from '../images/service-1.jpg';
-import Uslugi2 from '../images/service-2.jpg';
-import Uslugi3 from '../images/service-3.jpg';
+import Uslugi1 from '../../images/service-1.jpg';
+import Uslugi2 from '../../images/service-2.jpg';
+import Uslugi3 from '../../images/service-3.jpg';
 
 const Uslugi = () => (
 

@@ -4,10 +4,10 @@ import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
-import Welcome from './components/Welcome';
+import Welcome from './components/Welcome/Welcome';
 import Education from './components/Education';
-import Realizacje from './components/Realizacje';
-import Aktualnosci from './components/Aktualnosci';
+import Realizacje from './components/Welcome/Realizacje';
+import Aktualnosci from './components/Welcome/Aktualnosci';
 import {
   HashRouter,
   Route,

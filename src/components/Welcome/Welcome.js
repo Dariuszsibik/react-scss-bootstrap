@@ -1,9 +1,9 @@
 import React from 'react';
-import WelcomeImg from '../images/pages/front-page-welcome.png';
-import IkonaWnetrz from '../images/projekt-wnetrz-ikona.png';
-import IkonaLokale from '../images/projekt-lokale-ikona.png';
-import IkonaMebli from '../images/projekt-mebli-ikona.png';
-import IkonaZieleni from '../images/projekt-zielen-ikona.png';
+import WelcomeImg from '../../images/pages/front-page-welcome.png';
+import IkonaWnetrz from '../../images/projekt-wnetrz-ikona.png';
+import IkonaLokale from '../../images/projekt-lokale-ikona.png';
+import IkonaMebli from '../../images/projekt-mebli-ikona.png';
+import IkonaZieleni from '../../images/projekt-zielen-ikona.png';
 
 const Welcome = () => (
 

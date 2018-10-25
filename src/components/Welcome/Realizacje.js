@@ -1,9 +1,9 @@
 import React from 'react';
 import Uslugi from './Uslugi.js';
-import RealizacjeTitle1 from '../images/portfolio/realizacja-1.jpg';
-import RealizacjeChild1 from '../images/portfolio/realizacje-intro-1.jpg';
-import RealizacjeChild2 from '../images/portfolio/realizacje-intro-2.jpg';
-import RealizacjeChild3 from '../images/portfolio/realizacje-intro-3.jpg';
+import RealizacjeTitle1 from '../../images/portfolio/realizacja-1.jpg';
+import RealizacjeChild1 from '../../images/portfolio/realizacje-intro-1.jpg';
+import RealizacjeChild2 from '../../images/portfolio/realizacje-intro-2.jpg';
+import RealizacjeChild3 from '../../images/portfolio/realizacje-intro-3.jpg';
 
 const Realizacje = () => (
 
@@ -30,7 +30,7 @@ const Realizacje = () => (
                         <div className="d-flex justify-content-between flex-xl-wrap">
                             <img className="img-fluid" src={RealizacjeChild1} alt="Realizacja" />
                             <img className="img-fluid" src={RealizacjeChild2} alt="Realizacja" />
-                            <img className="img-fluid" src={RealizacjeChild3} alt="Realizacja" />
+                            <img className="img-fluid ds-front-page-portfolio-last" src={RealizacjeChild3} alt="Realizacja" />
                         </div>
                     </div>
                 </div>
