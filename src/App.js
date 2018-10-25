@@ -5,9 +5,7 @@ import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
 import Welcome from './components/Welcome/Welcome';
-import Education from './components/Education';
-import Realizacje from './components/Welcome/Realizacje';
-import Aktualnosci from './components/Welcome/Aktualnosci';
+import PostList from './components/PostList/PostList';
 import {
   HashRouter,
   Route,
@@ -26,9 +24,7 @@ class App extends Component {
             <Hero />
             <Switch>
                 <Route exact path='/' component={Welcome} />
-                <Route path='/test' component={Education} />
-                <Route path='/Realizacje' component={Realizacje} />
-                <Route path='/Aktualnosci' component={Aktualnosci} />
+                <Route path='/Aktualnosci' component={PostList} />
 
             </Switch>
             <Footer />
