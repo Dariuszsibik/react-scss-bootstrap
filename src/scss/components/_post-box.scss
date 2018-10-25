@@ -25,3 +25,42 @@
     font-size: .625rem;
     @include ds-font-light-secondary;
 }
+
+.ds-post-box-body {
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+
+.ds-post-box-content {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    padding: 20px 30px;
+    &:after {
+        @include bg-overlay($ds-black, .6);
+    }
+    @include media-breakpoint-up(md) {
+        top: 50%;
+    }
+}
+
+.ds-post-box-content-inner {
+    @include relative-zindex;
+}
+
+.ds-post-box-title {
+    font-size: 1.375rem;
+    margin-bottom: .85rem;
+}
+
+.ds-post-box-test {
+    margin-bottom: .3rem;
+    line-height: 1.66;
+}
+
+.ds-post-box-link {
+    font-size: .625rem;
+    @include ds-font-light-secondary;
+}

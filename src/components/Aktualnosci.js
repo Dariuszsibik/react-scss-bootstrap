@@ -20,14 +20,14 @@ const Aktualnosci = () => (
                                     <span className="text-white d-block ds-post-box-date-value">23 WRZ 2018</span>
                                 </div>
                             </div>
-                            <div className="ds-portfolio-box-body">
+                            <div className="ds-post-box-body">
                                 <div className="ds-post-box-img">
                                     <img className="img-fluid" src={Aktualnosci1} alt="post 1"/>
                                 </div>
                                 <div className="text-white ds-post-box-content">
                                     <div className="ds-post-box-content-inner">
                                         <h3 className="text-uppercase ds-post-box-title">Lorem, ipsum</h3>
-                                        <p className="ds-post-box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos modi deleniti molestias beatae voluptate a animi, ipsam, delectus consequatur dolor possimus quaerat iste! Repellendus, provident culpa? Sunt assumenda dolore nihil?</p>
+                                        <p className="ds-post-box-text ds-text-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos modi deleniti molestias beatae voluptate a animi, ipsam, delectus consequatur dolor possimus quaerat iste! Repellendus, provident culpa? Sunt assumenda dolore nihil?</p>
                                         <a className="text-primary text-uppercase ds-post-box-link" href="/">Zobacz więcej</a>
                                     </div>
                                 </div>
@@ -42,14 +42,14 @@ const Aktualnosci = () => (
                                     <span className="text-white d-block ds-post-box-date-value">28 LIS 2018</span>
                                 </div>
                             </div>
-                            <div className="ds-portfolio-box-body">
+                            <div className="ds-post-box-body">
                                 <div className="ds-post-box-img">
                                     <img className="img-fluid" src={Aktualnosci2} alt="post 2"/>
                                 </div>
                                 <div className="text-white ds-post-box-content">
                                     <div className="ds-post-box-content-inner">
                                         <h3 className="text-uppercase ds-post-box-title">Lorem, ipsum</h3>
-                                        <p className="ds-post-box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos modi deleniti molestias beatae voluptate a animi, ipsam, delectus consequatur dolor possimus quaerat iste! Repellendus, provident culpa? Sunt assumenda dolore nihil?</p>
+                                        <p className="ds-post-box-text ds-text-small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos modi deleniti molestias beatae voluptate a animi, ipsam, delectus consequatur dolor possimus quaerat iste! Repellendus, provident culpa? Sunt assumenda dolore nihil?</p>
                                         <a className="text-primary text-uppercase ds-post-box-link" href="/">Zobacz więcej</a>
                                     </div>
                                 </div>
