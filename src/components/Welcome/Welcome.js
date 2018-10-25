@@ -1,4 +1,7 @@
 import React from 'react';
+import Aktualnosci from './Aktualnosci';
+import Realizacje from './Realizacje';
+import Uslugi from './Uslugi';
 import WelcomeImg from '../../images/pages/front-page-welcome.png';
 import IkonaWnetrz from '../../images/projekt-wnetrz-ikona.png';
 import IkonaLokale from '../../images/projekt-lokale-ikona.png';
@@ -51,6 +54,9 @@ const Welcome = () => (
                     </div>
                 </div>
             </div>
+            <Aktualnosci/>
+            <Realizacje/>
+            <Uslugi/>
         </section>
 
     );

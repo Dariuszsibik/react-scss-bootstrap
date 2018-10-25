@@ -1,5 +1,4 @@
 import React from 'react';
-import Uslugi from './Uslugi.js';
 import RealizacjeTitle1 from '../../images/portfolio/realizacja-1.jpg';
 import RealizacjeChild1 from '../../images/portfolio/realizacje-intro-1.jpg';
 import RealizacjeChild2 from '../../images/portfolio/realizacje-intro-2.jpg';
@@ -7,7 +6,6 @@ import RealizacjeChild3 from '../../images/portfolio/realizacje-intro-3.jpg';
 
 const Realizacje = () => (
 
-        <React.Fragment>
         <section className="ds-front-page-portfolio ds-alternate-bg">
             <div className="container">
                 <div className="ds-section-header">
@@ -36,9 +34,6 @@ const Realizacje = () => (
                 </div>
             </div>
         </section>
-        
-        <Uslugi/>
-        </React.Fragment>
 
     );
     export default Realizacje;
