@@ -4,6 +4,7 @@ import WidokListy from '../../images/ui/view-list.png';
 import Lists from './Aktualnosci-list.js';
 import Search from './Aktualnosci-search.js';
 import Archiwum from './Aktualnosci-archiwum.js';
+import Popular from './Aktualnosci-popularne.js';
 
 const Aktualnosci = () => (
 
@@ -24,6 +25,7 @@ const Aktualnosci = () => (
                     <div className="col-lg-4">
                         <Search/>
                         <Archiwum/>
+                        <Popular/>
                     </div>
                 </div>
             </div>
