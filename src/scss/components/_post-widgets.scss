@@ -3,3 +3,54 @@
     padding: 1rem 2rem;
     background-color: $gray-200;
 }
+
+.ds-post-widget-header {
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+}
+
+.ds-post-widget-list-item {
+    padding-left: 1.25rem;
+    padding-right: 2.5rem;
+}
+
+.ds-post-widget-link {
+    color: $gray-900;
+    font-size: .875rem;
+    @include ds-font-light-secondary;
+}
+
+//widget Search
+.ds-post-widget-search {
+    padding: 0 .75rem;
+}
+
+.ds-post-widget-search-input {
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .2rem;
+    &::-webkit-input-placeholder {
+        color: $gray-200;
+    }
+    &::-moz-input-placeholder {
+        color: $gray-200;
+    }
+    &:-moz-input-placeholder {
+        color: $gray-200;
+    }
+    &::-ms-input-placeholder {
+        color: $gray-200;
+    }
+}
+
+.ds-post-widget-archive {
+    padding: 1rem 0 0;
+}
+
+.ds-post-widget-archive-list {
+    margin-bottom: 5rem;
+}
+
+.ds-post-widget-archive-header {
+    margin-bottom: .75rem;
+}

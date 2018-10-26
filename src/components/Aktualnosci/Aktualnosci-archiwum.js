@@ -6,8 +6,8 @@ const Archiwum = () => (
                         <h4 className="text-uppercase ds-post-widget-header">Archiwum</h4>
                         <div className="w-75 ds-hr"></div>
                         <div className="ds-post-widget-archive">
-                            <h5 className="ds-post-archive-header">2016</h5>
-                            <h5 className="ds-post-archive-header">2017</h5>
+                            <h5 className="ds-post-widget-archive-header">2016</h5>
+                            <h5 className="ds-post-widget-archive-header">2017</h5>
                             <ul className="list-unstyled ds-post-widget-archive-list">
                                 <li className="ds-post-widget-list-item">
                                     <a href="/" className="ds-post-widget-link">Styczeń <span className="float-righ">(10)</span></a>
@@ -26,6 +26,21 @@ const Archiwum = () => (
                                 </li>
                                 <li className="ds-post-widget-list-item">
                                     <a href="/" className="ds-post-widget-link">Czerwiec <span className="float-righ">(11)</span></a>
+                                </li>
+                                <li className="ds-post-widget-list-item">
+                                    <a href="/" className="ds-post-widget-link">Lipiec <span className="float-righ">(14)</span></a>
+                                </li>
+                                <li className="ds-post-widget-list-item">
+                                    <a href="/" className="ds-post-widget-link">Sierpień <span className="float-righ">(16)</span></a>
+                                </li>
+                                <li className="ds-post-widget-list-item">
+                                    <a href="/" className="ds-post-widget-link">Wrzesień <span className="float-righ">(17)</span></a>
+                                </li>
+                                <li className="ds-post-widget-list-item">
+                                    <a href="/" className="ds-post-widget-link">Pażdziernik <span className="float-righ">(19)</span></a>
+                                </li>
+                                <li className="ds-post-widget-list-item">
+                                    <a href="/" className="ds-post-widget-link">Listopad <span className="float-righ">(9)</span></a>
                                 </li>
                             </ul>
                         </div>

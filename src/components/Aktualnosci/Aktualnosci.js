@@ -2,7 +2,7 @@ import React from 'react';
 import WidokSiatki from '../../images/ui/view-grid.png';
 import WidokListy from '../../images/ui/view-list.png';
 import Lists from './Aktualnosci-list.js';
-import Widgets from './Aktualnosci-widget.js';
+import Search from './Aktualnosci-search.js';
 import Archiwum from './Aktualnosci-archiwum.js';
 
 const Aktualnosci = () => (
@@ -22,7 +22,7 @@ const Aktualnosci = () => (
                         <Lists/>
                     </div>
                     <div className="col-lg-4">
-                        <Widgets/>
+                        <Search/>
                         <Archiwum/>
                     </div>
                 </div>
