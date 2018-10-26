@@ -1,7 +1,9 @@
 import React from 'react';
 import WidokSiatki from '../../images/ui/view-grid.png';
 import WidokListy from '../../images/ui/view-list.png';
-import Postlist from './Aktualnosci-list.js';
+import Lists from './Aktualnosci-list.js';
+import Widgets from './Aktualnosci-widget.js';
+import Archiwum from './Aktualnosci-archiwum.js';
 
 const Aktualnosci = () => (
 
@@ -16,9 +18,12 @@ const Aktualnosci = () => (
                     </div>
                 </div>
                 <div className="row">
-                    <Postlist/>
+                    <div className="col-lg-8">
+                        <Lists/>
+                    </div>
                     <div className="col-lg-4">
-                        Widgety
+                        <Widgets/>
+                        <Archiwum/>
                     </div>
                 </div>
             </div>

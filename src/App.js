@@ -23,7 +23,7 @@ class App extends Component {
             <Nav />
             <Hero />
             <Switch>
-                <Route exact path='/home' component={Welcome} />
+                <Route exact path='/' component={Welcome} />
                 <Route path='/realizacje' component={Aktualnosci} />
                 <Route path='/usluga' component={Aktualnosci} />
                 <Route path='/aktualnosci' component={Aktualnosci} />

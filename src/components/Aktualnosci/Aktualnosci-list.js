@@ -3,9 +3,9 @@ import Aktualnosci1 from '../../images/posts/post-1.jpg';
 import Aktualnosci2 from '../../images/posts/post-2.jpg';
 import DateIcon from '../../images/ui/date-icon.png';
 
-const PostList = () => (
+const List = () => (
 
-                    <div className="col-lg-8">
+                       <div className="col-lg-8">
                             <div className="ds-post-item">
                                 <div className="ds-post-box">
                                     <div className="text-center bg-primary d-flex align-items-center ds-post-box-date">
@@ -48,7 +48,7 @@ const PostList = () => (
                                 <button className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more" >Zobacz więcej</button>
                                 <div className="ds-hr"></div>
                             </div>
-                    </div>
+                        </div>
 
     );
-    export default PostList;
+    export default List;
