@@ -5,6 +5,7 @@ import Lists from './Aktualnosci-list.js';
 import Search from './Aktualnosci-search.js';
 import Archiwum from './Aktualnosci-archiwum.js';
 import Popular from './Aktualnosci-popularne.js';
+import Kategorie from './Aktualnosci-kategorie.js';
 
 const Aktualnosci = () => (
 
@@ -26,6 +27,7 @@ const Aktualnosci = () => (
                         <Search/>
                         <Archiwum/>
                         <Popular/>
+                        <Kategorie/>
                     </div>
                 </div>
             </div>
