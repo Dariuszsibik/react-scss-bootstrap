@@ -9,7 +9,7 @@ class Header extends Component {
                     <div className="container">
                         <ul className="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
                             <li className="nav-item ds-header-item-active">
-                                <NavLink to="/" activeClassName="active" className="nav-link ds-header-item-link">Strona Główna</NavLink>
+                                <NavLink to="/" activeStyle={{color: 'red'}} activeClassName="active" className="nav-link ds-header-item-link">Strona Główna</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/realizacje" className="nav-link ds-header-item-link">Realizacje</NavLink>
