@@ -5,7 +5,7 @@ import DateIcon from '../../images/ui/date-icon.png';
 
 const List = () => (
 
-                       <div className="col-lg-8">
+                        <React.Fragment>
                             <div className="ds-post-item">
                                 <div className="ds-post-box">
                                     <div className="text-center bg-primary d-flex align-items-center ds-post-box-date">
@@ -27,7 +27,7 @@ const List = () => (
                                 <button className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more" >Zobacz więcej</button>
                                 <div className="ds-hr"></div>
                             </div>
-                            <div className="ds-post-item">
+                            <div className="pb-0 ds-post-item">
                                 <div className="ds-post-box">
                                     <div className="text-center bg-primary d-flex align-items-center ds-post-box-date">
                                         <div className="mx-auto ds-post-box-date-body">
@@ -46,9 +46,8 @@ const List = () => (
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio fugiat sed recusandae a animi, commodi excepturi soluta et quos harum nam facilis id quod dolore quae iure ea? Consequuntur enim dolor sint delectus culpa nihil repudiandae similique placeat odio eos ipsam consectetur illo vero itaque impedit illum eveniet nesciunt ipsa natus, nam possimus soluta cupiditate. Fugit saepe quibusdam aspernatur assumenda, nostrum, explicabo quo repudiandae delectus excepturi soluta, dolorem consequatur. Quia architecto eum sit repellendus vitae quas quos officiis ex. Hic?</p>
                                 <button className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more" >Zobacz więcej</button>
-                                <div className="ds-hr"></div>
                             </div>
-                        </div>
+                        </React.Fragment>
 
     );
     export default List;

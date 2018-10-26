@@ -6,6 +6,7 @@ import Search from './Aktualnosci-search.js';
 import Archiwum from './Aktualnosci-archiwum.js';
 import Popular from './Aktualnosci-popularne.js';
 import Kategorie from './Aktualnosci-kategorie.js';
+import Pagination from './Aktualnosci-paginacja.js';
 
 const Aktualnosci = () => (
 
@@ -22,6 +23,7 @@ const Aktualnosci = () => (
                 <div className="row">
                     <div className="col-lg-8">
                         <Lists/>
+                        <Pagination/>
                     </div>
                     <div className="col-lg-4">
                         <Search/>
