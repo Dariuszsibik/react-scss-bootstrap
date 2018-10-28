@@ -9,6 +9,7 @@ import Aktualnosci from './components/Aktualnosci/Aktualnosci';
 import Wpis from './components/Aktualnosci/Wpisy/Wpis';
 import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
+import Shop from './components/Shop/Shop.js';
 import {
   HashRouter,
   Route,
@@ -32,7 +33,7 @@ class App extends Component {
                 <Route path='/aktualnosci' component={Aktualnosci} />
                 <Route path='/first' component={Wpis} />
                 <Route path='/second' component={Wpis} />
-                <Route path='/sklep' component={Aktualnosci} />
+                <Route path='/sklep' component={Shop} />
                 <Route path='/onas' component={About} />
             </Switch>
             <Footer />
