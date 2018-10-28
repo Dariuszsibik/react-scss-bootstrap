@@ -1,6 +1,7 @@
 import React from 'react';
-import AboutTop from './About-top.js'
-import AboutContent from './About-content.js'
+import AboutTop from './About-top.js';
+import AboutContent from './About-content.js';
+import AboutContact from './About-contact.js';
 
 const About = () => (
 
@@ -8,6 +9,8 @@ const About = () => (
             <div className="container">
                 <AboutTop/>
                 <AboutContent/>
+                <div className="ds-hr"></div>
+                <AboutContact/>
             </div>
         </div>
 
