@@ -3,6 +3,7 @@ import Search from './../Aktualnosci-search.js';
 import Archiwum from './../Aktualnosci-archiwum.js';
 import Popular from './../Aktualnosci-popularne.js';
 import Kategorie from './../Aktualnosci-kategorie.js';
+import Komentarze from './Wpis-komentarze.js';
 import Wpis1 from './Wpis1';
 
 const Wpis = () => (
@@ -14,6 +15,7 @@ const Wpis = () => (
                 <div className="row">
                     <div className="col-lg-8">
                         <Wpis1/>
+                        <Komentarze/>
                     </div>
                     <div className="col-lg-4">
                         <Search/>
