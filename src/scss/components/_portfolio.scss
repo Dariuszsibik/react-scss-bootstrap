@@ -32,3 +32,21 @@ position: relative;
         @include bg-overlay($ds-accent-color, .8);
     }
 }
+
+// style dla portfolio item
+.ds-portfolio-item {
+    position: relative;
+    margin-bottom: 1.875rem;
+    .ds-hr {
+        margin: 1rem 0;
+    }
+}
+
+.ds-portfolio-item-info {
+    @include ds-font-light-secondary;
+}
+
+.ds-portfolio-box-header {
+    font-size: 1.125rem;
+    letter-spacing: .2rem;
+}
