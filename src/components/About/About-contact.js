@@ -4,7 +4,7 @@ import Mapa from '../../images/pages/mapa.jpg';
 const AboutContact = () => (
 
         <React.Fragment>
-            <h4 classname="ds-contact text-uppercase">Napisz do nas</h4>
+            <h4 className="ds-contact text-uppercase text-center">Napisz do nas</h4>
             <div className="row">
                 <div className="col-lg-6">
                     <div className="mb-5 mb-lg-0 ds-contact-form">

@@ -1,0 +1,41 @@
+.ds-contact {
+    margin: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: .08rem;
+}
+
+.ds-contact-form {
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    padding: 2rem;
+    background: url('../images/contact-form-bg.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    box-shadow: -1.3rem -1.3rem 0 rgba($ds-contact-form-shadow, 1);
+    @include media-breakpoint-up(xl) {
+        padding: 2rem 6rem;
+        margin-right: -2rem;
+    }
+}
+
+.ds-contact-form-header {
+    margin-bottom: .75rem;
+    letter-spacing: .08rem;
+}
+
+.ds-form-group {
+    margin-bottom: .25rem;
+}
+
+.ds-contact-form-control {
+    background-color: rgba($gray-100, .8);
+    &:focus {
+        background-color: rgba($gray-100, .9);;
+    }
+}
+
+.ds-contact-form-btn {
+    margin-top: .75rem;
+    padding: .1rem .5rem;
+    font-size: .628rem;
+    letter-spacing: .075rem;
+}

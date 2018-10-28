@@ -8,6 +8,7 @@ import Welcome from './components/Welcome/Welcome';
 import Aktualnosci from './components/Aktualnosci/Aktualnosci';
 import Wpis from './components/Aktualnosci/Wpisy/Wpis';
 import About from './components/About/About.js';
+import Portfolio from './components/Portfolio/Portfolio.js';
 import {
   HashRouter,
   Route,
