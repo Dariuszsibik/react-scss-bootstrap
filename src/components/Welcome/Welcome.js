@@ -16,7 +16,7 @@ const Welcome = () => (
                     <div className="col-lg-6 mb-5 mb-lg-0">
                         <span className="text-muted text-uppercase ds-text-small ds-page-intro-subheader">Lorem ipsum dolor,
                             sit amet consectetur adipisicing elit.</span>
-                        <h2 className="text-uppercase ds-page-intro-header">Witaj na <span className="text-primary">mojej
+                        <h2 className="text-uppercase ds-page-intro-header">Witaj na <span className="text-primary">naszej
                                 stronie</span></h2>
                         <div className="ds-hr ds-page-intro-rule"></div>
                         <p className="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum possimus nemo

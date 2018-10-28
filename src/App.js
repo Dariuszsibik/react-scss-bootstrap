@@ -7,6 +7,7 @@ import Copyright from './components/Copyright';
 import Welcome from './components/Welcome/Welcome';
 import Aktualnosci from './components/Aktualnosci/Aktualnosci';
 import Wpis from './components/Aktualnosci/Wpisy/Wpis';
+import About from './components/About/About.js';
 import {
   HashRouter,
   Route,
@@ -31,7 +32,7 @@ class App extends Component {
                 <Route path='/first' component={Wpis} />
                 <Route path='/second' component={Wpis} />
                 <Route path='/sklep' component={Aktualnosci} />
-                <Route path='/onas' component={Aktualnosci} />
+                <Route path='/onas' component={About} />
             </Switch>
             <Footer />
             <Copyright />
