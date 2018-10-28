@@ -1,0 +1,35 @@
+.ds-product-item {
+    margin-bottom: 40px;
+}
+
+.ds-product-item-link {
+    color: $gray-900;
+}
+
+.ds-product-item-img {
+    width: 100%;
+    height: 192px;
+    margin-bottom: .75rem;
+    background-color: $gray-200;
+    &:hover {
+        background-color: darken($gray-200, 12%);
+    }
+    @include ds-basic-transition;
+}
+
+.ds-product-name {
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+}
+
+.ds-product-item-desc {
+    margin-bottom: .5rem;
+    font-weight: 300;
+}
+
+.ds-product-price {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+

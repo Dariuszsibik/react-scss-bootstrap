@@ -1,5 +1,7 @@
 import React from 'react';
 import Search from './Search.js';
+import ShopList from './Shop-list';
+
 const Shop = () => (
 
         <div className="ds-shop-page">
@@ -14,6 +16,7 @@ const Shop = () => (
                 </div>
             </div>
         <Search/>
+        <ShopList/>
         </div>
 
     );
