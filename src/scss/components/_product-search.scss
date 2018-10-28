@@ -1,0 +1,32 @@
+.ds-product-search {
+    padding: 42px 0;
+}
+
+.ds-product-search-inner {
+    width: 100%;
+    height: 2.2rem;
+    margin: 0 auto;
+    @include media-breakpoint-up(lg){
+        width: 40%;
+    }
+}
+
+.ds-product-search-control {
+    font-size: .625rem;
+    letter-spacing: .1rem;
+}
+
+.ds-product-search-input {
+    padding-left: 1.25rem;
+}
+
+.ds-product-search-categories {
+    color: $ds-product-search-btn-color;
+    &:hover {
+        color: darken($ds-product-search-btn-color, 15%)
+    }
+}
+
+.ds-product-search-btn {
+    font-size: .5rem;
+}
