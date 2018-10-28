@@ -32,8 +32,6 @@ const Wpis1 = () => (
         </ul>
     <p>Cillum officia ad reprehenderit nulla irure eiusmod in. Cillum ipsum cillum amet nostrud magna nisi excepteur. Aliquip deserunt voluptate officia sunt occaecat dolore est proident pariatur quis dolor sunt et. Laborum ut in et commodo non nostrud elit eu excepteur esse ad consequat dolor excepteur. Id eiusmod ad minim magna labore elit ea consectetur est elit. Ipsum reprehenderit labore aliquip irure deserunt eiusmod amet. Sint exercitation anim eiusmod ex nisi.      
     Aliquip tempor tempor veniam officia consequat sit officia nulla occaecat Lorem aliquip. Nostrud ullamco quis id pariatur cupidatat laboris excepteur quis eiusmod. Laboris esse officia aute est laborum cupidatat eu eu ullamco elit commodo officia velit. Reprehenderit enim reprehenderit nulla aliquip occaecat ipsum nostrud et amet quis veniam quis id proident. Officia cillum duis sunt tempor nisi cupidatat in et eu. Lorem qui cillum non quis.</p>
-
-    <div className="ds-hr"></div>
     </div>
 
 

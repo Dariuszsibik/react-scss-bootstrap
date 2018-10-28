@@ -2,7 +2,7 @@ import React from 'react';
 import Odpowiedz from '../../../images/ui/reply-arrow.png';
 import Avatar from '../../../images/ui/user-avatar.png';
 
-const Search = () => (
+const Komentarz = () => (
 
                     <div className="ds-comments">
                         <h4 className="ds-comments-header">Komentarze (2)</h4>
@@ -41,4 +41,4 @@ const Search = () => (
                     </div>
 
     );
-    export default Search;
+    export default Komentarz;

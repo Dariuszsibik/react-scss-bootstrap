@@ -4,6 +4,7 @@ import Archiwum from './../Aktualnosci-archiwum.js';
 import Popular from './../Aktualnosci-popularne.js';
 import Kategorie from './../Aktualnosci-kategorie.js';
 import Komentarze from './Wpis-komentarze.js';
+import Formularz from './Wpis-formularz';
 import Wpis1 from './Wpis1';
 
 const Wpis = () => (
@@ -15,7 +16,9 @@ const Wpis = () => (
                 <div className="row">
                     <div className="col-lg-8">
                         <Wpis1/>
+                        <div className="ds-hr"></div>
                         <Komentarze/>
+                        <Formularz/>
                     </div>
                     <div className="col-lg-4">
                         <Search/>
