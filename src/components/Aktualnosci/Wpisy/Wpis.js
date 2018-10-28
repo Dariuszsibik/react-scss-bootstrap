@@ -9,7 +9,7 @@ import Wpis1 from './Wpis1';
 
 const Wpis = () => (
 
-        <div className="ds-post-list-page">
+        <div className="ds-post-page">
             <div className="container">
                 <div className="row">
                 </div>
@@ -18,6 +18,7 @@ const Wpis = () => (
                         <Wpis1/>
                         <div className="ds-hr"></div>
                         <Komentarze/>
+                        <div className="ds-hr"></div>
                         <Formularz/>
                     </div>
                     <div className="col-lg-4">

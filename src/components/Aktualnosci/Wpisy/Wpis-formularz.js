@@ -6,21 +6,21 @@ const Formularz = () => (
                         <form className="ds-form" action="#">
                             <div className="row">
                                 <div className="form-group col-md-4">
-                                    <label for="name">Twoje Imię</label>
+                                    <label htmlFor="name">Twoje Imię</label>
                                     <input className="form-control ds-comments-form-control" type="text" id="name"/>        
                                 </div>
                                 <div className="form-group col-md-4">
-                                    <label for="email">Adres email</label>
+                                    <label htmlFor="email">Adres email</label>
                                     <input className="form-control ds-comments-form-control" type="text" id="email"/>        
                                 </div>
                                 <div className="form-group col-md-4">
-                                    <label for="url">Twoja strona</label>
+                                    <label htmlFor="url">Twoja strona</label>
                                     <input className="form-control ds-comments-form-control" type="text" id="url"/>        
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="form-group col">
-                                    <label for="comment">Twój komentarz</label>
+                                    <label htmlFor="comment">Twój komentarz</label>
                                     <textarea className="form-control ds-comments-form-control" id="comment" cols="30" rows="5"></textarea>
                                 </div>
                             </div>
