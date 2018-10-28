@@ -1,0 +1,33 @@
+.ds-comments {
+    padding: 45px 0 25px;
+}
+
+.ds-comment {
+    padding-top: .75rem;
+}
+
+.ds-comment-avatar {
+    margin-right: 1rem;
+    border-radius: 24px;
+    @include ds-size(48px, 48px);
+}
+
+.ds-comment-meta  {
+    margin-right: .25rem 0;
+}
+
+.ds-comment-username {
+    font-weight: 700;
+    letter-spacing: .075rem;
+}
+
+.ds-comment-date {
+    letter-spacing: .1rem;
+    font-size: .75rem;
+}
+
+.ds-comment-text {
+    margin-right: 4rem;
+    font-size: .75rem;
+    line-height: 2;
+}

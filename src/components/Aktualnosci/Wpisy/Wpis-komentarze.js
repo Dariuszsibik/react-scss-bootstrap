@@ -12,7 +12,7 @@ const Search = () => (
                                 </div>
                                 <div className="media-body ds-text-small">
                                     <div className="ds-comment-meta">
-                                        <span className="ds-comment-username">Dariusz Sibik</span>
+                                        <span className="ds-comment-username">Dariusz Sibik</span><br/>
                                         <span className="ds-comment-username">25 Kwiecień 2018 | 20:03</span>
                                     </div>
                                     <div className="d-flex align-items-start ds-comment-content">
@@ -26,7 +26,7 @@ const Search = () => (
                                                     </div>
                                                     <div className="media-body ds-text-small">
                                                         <div className="ds-comment-meta">
-                                                            <span className="ds-comment-username">Jan Kowalski</span>
+                                                            <span className="ds-comment-username">Jan Kowalski</span><br/>
                                                             <span className="ds-comment-username">26 Kwiecień 2018 | 18:16</span>
                                                         </div>
                                                         <div className="d-flex align-items-start ds-comment-content">
