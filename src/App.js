@@ -6,6 +6,7 @@ import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
 import Welcome from './components/Welcome/Welcome';
 import Aktualnosci from './components/Aktualnosci/Aktualnosci';
+import Wpis from './components/Aktualnosci/Wpisy/Wpis';
 import {
   HashRouter,
   Route,
@@ -27,7 +28,8 @@ class App extends Component {
                 <Route path='/realizacje' component={Aktualnosci} />
                 <Route path='/usluga' component={Aktualnosci} />
                 <Route path='/aktualnosci' component={Aktualnosci} />
-                <Route path='/first' component={Welcome} />
+                <Route path='/first' component={Wpis} />
+                <Route path='/second' component={Wpis} />
                 <Route path='/sklep' component={Aktualnosci} />
                 <Route path='/onas' component={Aktualnosci} />
             </Switch>
