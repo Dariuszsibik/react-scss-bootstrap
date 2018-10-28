@@ -27,6 +27,7 @@ class App extends Component {
                 <Route path='/realizacje' component={Aktualnosci} />
                 <Route path='/usluga' component={Aktualnosci} />
                 <Route path='/aktualnosci' component={Aktualnosci} />
+                <Route path='/first' component={Welcome} />
                 <Route path='/sklep' component={Aktualnosci} />
                 <Route path='/onas' component={Aktualnosci} />
             </Switch>

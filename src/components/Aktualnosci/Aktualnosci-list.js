@@ -3,6 +3,8 @@ import Aktualnosci1 from '../../images/posts/post-1.jpg';
 import Aktualnosci2 from '../../images/posts/post-2.jpg';
 import DateIcon from '../../images/ui/date-icon.png';
 
+import {NavLink} from 'react-router-dom';
+
 const List = () => (
 
                         <React.Fragment>
@@ -24,7 +26,7 @@ const List = () => (
                                     <h2 className="text-uppercase ds-post-item-title" >Lorem Ipsum</h2>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio fugiat sed recusandae a animi, commodi excepturi soluta et quos harum nam facilis id quod dolore quae iure ea? Consequuntur enim dolor sint delectus culpa nihil repudiandae similique placeat odio eos ipsam consectetur illo vero itaque impedit illum eveniet nesciunt ipsa natus, nam possimus soluta cupiditate. Fugit saepe quibusdam aspernatur assumenda, nostrum, explicabo quo repudiandae delectus excepturi soluta, dolorem consequatur. Quia architecto eum sit repellendus vitae quas quos officiis ex. Hic?</p>
-                                <button className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more" >Zobacz więcej</button>
+                                <NavLink to="/first" className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more">Zobacz więcej</NavLink>
                                 <div className="ds-hr"></div>
                             </div>
                             <div className="pb-0 ds-post-item">
@@ -45,7 +47,8 @@ const List = () => (
                                     <h2 className="text-uppercase ds-post-item-title" >Lorem Ipsum</h2>
                                 </a>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio fugiat sed recusandae a animi, commodi excepturi soluta et quos harum nam facilis id quod dolore quae iure ea? Consequuntur enim dolor sint delectus culpa nihil repudiandae similique placeat odio eos ipsam consectetur illo vero itaque impedit illum eveniet nesciunt ipsa natus, nam possimus soluta cupiditate. Fugit saepe quibusdam aspernatur assumenda, nostrum, explicabo quo repudiandae delectus excepturi soluta, dolorem consequatur. Quia architecto eum sit repellendus vitae quas quos officiis ex. Hic?</p>
-                                <button className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more" >Zobacz więcej</button>
+                                <NavLink to="/second" className="btn btn-primary btn-sm text-uppercase text-white ds-post-item-more">Zobacz więcej</NavLink>
+
                             </div>
                         </React.Fragment>
 
