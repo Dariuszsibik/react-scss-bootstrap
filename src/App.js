@@ -10,6 +10,7 @@ import Wpis from './components/Aktualnosci/Wpisy/Wpis';
 import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Shop from './components/Shop/Shop.js';
+import Product from './components/Shop/Product/Product.js';
 import {
   HashRouter,
   Route,
@@ -34,6 +35,7 @@ class App extends Component {
                 <Route path='/first' component={Wpis} />
                 <Route path='/second' component={Wpis} />
                 <Route path='/sklep' component={Shop} />
+                <Route path='/product' component={Product} />
                 <Route path='/onas' component={About} />
             </Switch>
             <Footer />

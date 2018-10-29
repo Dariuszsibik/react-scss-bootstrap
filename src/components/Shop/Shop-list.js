@@ -11,6 +11,8 @@ import Icon3 from '../../images/ui/product-item-icon-3.png';
 import Icon4 from '../../images/ui/product-item-icon-4.png';
 import Ocena1 from '../../images/ui/stars.png'
 
+import {NavLink} from 'react-router-dom';
+
 const ProductList = () => (
 
         <div className="container">
@@ -18,12 +20,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt1} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -34,9 +36,9 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item active">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt2} alt="zdjęcie produktu" />
-                        </a>
+                        </NavLink>
                         <div className="d-flex flex-column ds-product-item-icons">
                             <span className="d-flex justify-content-center bg-primary ds-product-item-icon" >
                                 <img className="align-self-center" src={Icon1} alt="akcja1" />
@@ -51,9 +53,9 @@ const ProductList = () => (
                                 <img className="align-self-center" src={Icon4} alt="akcja4" />
                             </span>
                         </div>
-                        <a href="/product" className="ds-product-item-link" >
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -64,12 +66,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt3} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -80,12 +82,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt5} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -97,12 +99,12 @@ const ProductList = () => (
                 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt3} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -113,12 +115,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt5} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -129,12 +131,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt6} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
@@ -145,12 +147,12 @@ const ProductList = () => (
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
                     <div className="ds-product-item">
-                        <a href="/product" className="d-flex justify-content-center ds-product-item-img">
+                        <NavLink to="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt8} alt="zdjęcie produktu" />
-                        </a>
-                        <a href="/product" className="ds-product-item-link" >
+                        </NavLink>
+                        <NavLink to="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
-                        </a>
+                        </NavLink>
                         <p className="ds-text-small ds-product-item-desc">Exercitation ipsum veniam ea do veniam do et. Tempor in labore occaecat laboris voluptate.</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <span className="ds-product-price">68zł</span>
