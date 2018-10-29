@@ -5,6 +5,10 @@ import Produkt3 from '../../images/pages/product-3-sm.png';
 import Produkt5 from '../../images/pages/product-5-sm.png';
 import Produkt6 from '../../images/pages/product-6-sm.png';
 import Produkt8 from '../../images/pages/product-8-sm.png';
+import Icon1 from '../../images/ui/product-item-icon-1.png';
+import Icon2 from '../../images/ui/product-item-icon-2.png';
+import Icon3 from '../../images/ui/product-item-icon-3.png';
+import Icon4 from '../../images/ui/product-item-icon-4.png';
 import Ocena1 from '../../images/ui/stars.png'
 
 const ProductList = () => (
@@ -29,10 +33,24 @@ const ProductList = () => (
                 </div>
 
                 <div className="col-sm-6 col-md-4 col-lg-3">
-                    <div className="ds-product-item">
+                    <div className="ds-product-item active">
                         <a href="/product" className="d-flex justify-content-center ds-product-item-img">
                             <img className="align-self-center" src={Produkt2} alt="zdjęcie produktu" />
                         </a>
+                        <div className="d-flex flex-column ds-product-item-icons">
+                            <span className="d-flex justify-content-center bg-primary ds-product-item-icon" >
+                                <img className="align-self-center" src={Icon1} alt="akcja1" />
+                            </span>
+                            <span className="d-flex justify-content-center ds-product-item-icon" >
+                                <img className="align-self-center" src={Icon2} alt="akcja2" />
+                            </span>
+                            <span className="d-flex justify-content-center ds-product-item-icon" >
+                                <img className="align-self-center" src={Icon3} alt="akcja3" />
+                            </span>
+                            <span className="d-flex justify-content-center ds-product-item-icon" >
+                                <img className="align-self-center" src={Icon4} alt="akcja4" />
+                            </span>
+                        </div>
                         <a href="/product" className="ds-product-item-link" >
                             <h5 className="text-uppercase ds-product-name">Nazwa produkt</h5>
                         </a>

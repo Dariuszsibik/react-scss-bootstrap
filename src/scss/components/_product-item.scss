@@ -33,3 +33,21 @@
     letter-spacing: .1rem;
 }
 
+// ikony akcji produktu
+.ds-product-item-icons {
+    position: absolute;
+    top: .5rem;
+    right: 1.65rem;
+}
+
+.ds-product-item-icon {
+    margin-bottom: .75rem;
+    background-color: $ds-gray-900;
+    @include ds-size(35px, 35px);
+}
+
+.ds-product-item.active {
+    .ds-product-item-img {
+        background-color: darken($gray-200, 12%);
+    }
+}
