@@ -1,0 +1,21 @@
+.ds-shop-page {
+    padding: 40px 0 35px;
+    .ds-product-search {
+        margin-bottom: 50px;
+    }
+}
+
+.ds-product-list-intro {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+        width: 50%;
+    }
+}
+
+.ds-product-list-intro-desc {
+    font-weight: 300;
+}
+
+.ds-products {
+    padding: 0 0 15px;
+}
