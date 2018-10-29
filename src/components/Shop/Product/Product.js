@@ -44,7 +44,7 @@ const Product = () => (
                                     </li>
                                 </ul>
                                 <div className="ds-product-page-desc-text">
-                                    <h4 className="ds-text-large">lorem ipsum dolor sit Lorem Ipsum.</h4>
+                                    <h4 className="mb-3 ds-text-large">lorem ipsum dolor sit Lorem Ipsum.</h4>
                                     <p>Aute amet est cupidatat dolore consequat quis aliquip proident ea deserunt. Consequat exercitation dolor labore tempor deserunt pariatur tempor exercitation adipisicing culpa enim amet. Est esse aute aliqua anim. Ad fugiat dolore sunt voluptate laboris Lorem. Fugiat ex consequat quis excepteur laboris tempor sint fugiat. Aliqua laboris tempor est quis eu nostrud pariatur dolor non exercitation amet in deserunt.</p>
                                 </div>
                             </div>

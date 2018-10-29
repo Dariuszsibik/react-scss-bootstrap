@@ -51,3 +51,17 @@
 .ds-product-page-hr {
     margin: 3.25rem 0;
 }
+
+.ds-product-page-desc {
+    margin-bottom: 70px;
+}
+
+.ds-product-page-desc-text {
+    padding: 2.5rem 4rem 1.5rem;
+    border: 1px solid darken($gray-200, 5%);
+    @include ds-font-light-secondary;
+}
+
+.ds-product-page-related-header {
+    margin-bottom: 2rem;
+}
