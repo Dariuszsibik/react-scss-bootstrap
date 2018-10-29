@@ -31,9 +31,24 @@ const Product = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="ds-hr"></div>
+                    <div className="ds-hr ds-product-page-hr"></div>
                     <div className="ds-product-page-desc">
-                        Opis
+                        <div className="row">
+                            <div className="col">
+                                <ul className="nav nav-tabs text-uppercase ds-product-page-desc-tabs">
+                                    <li className="nav-item">
+                                        <a className="nav-link active" href="/">Opis produktu</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="/">Opinie o produkcie</a>
+                                    </li>
+                                </ul>
+                                <div className="ds-product-page-desc-text">
+                                    <h4 className="ds-text-large">lorem ipsum dolor sit Lorem Ipsum.</h4>
+                                    <p>Aute amet est cupidatat dolore consequat quis aliquip proident ea deserunt. Consequat exercitation dolor labore tempor deserunt pariatur tempor exercitation adipisicing culpa enim amet. Est esse aute aliqua anim. Ad fugiat dolore sunt voluptate laboris Lorem. Fugiat ex consequat quis excepteur laboris tempor sint fugiat. Aliqua laboris tempor est quis eu nostrud pariatur dolor non exercitation amet in deserunt.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="ds-product-page-related">
                         <h3 className="text-uppercase ds-product-page-related-header ds-text-large">Podobne produkty</h3>
