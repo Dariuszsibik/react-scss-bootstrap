@@ -2,6 +2,8 @@ import React from 'react';
 import Search from '../Search.js';
 import ShopPagination from '../Shop-paginacja';
 import Prompt from './Product-prompt';
+import ProductImg from '../../../images/pages/product-big.jpg';
+import ProductRating from '../../../images/ui/stars.png';
 
 
 const Product = () => (
@@ -9,14 +11,32 @@ const Product = () => (
         <div className="ds-product-page">
                 <div className="container">
                     <div className="ds-product-page-data">
-                        Dane produktu
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <img className="img-fluid ds-product-page-img" src={ProductImg} alt="Produkt"/>
+                            </div>
+                            <div className="col-lg-6">
+                                <h4 className="text-uppercase ds-product-name ds-text-large">Nazwa produktu</h4>
+                                <div className="d-flex align-items-center justify-content-between ds-product-price-box">
+                                    <span className="ds-product-price ds-text-large">68zł</span>
+                                    <img src={ProductRating} alt="ocena produktu"/>
+                                </div>
+                                <div className="ds-hr"></div>
+                                <p className="ds-product-page-short-desc">In eiusmod duis elit ex duis minim aute non exercitation aliqua minim ut aliquip velit. Labore id nisi anim adipisicing incididunt anim esse ad excepteur commodo. Velit esse sit est elit consequat enim sint minim in nulla.</p>
+                                <div className="ds-product-page-quantity">
+                                    <span className="text-uppercase ds-product-page-quantity-label">Ilość sztuk</span>
+                                    <input className="text-center ds-product-page-quantity-input" type="number" defaultValue="1"/>
+                                </div>
+                                <button className="btn btn-primary text-white text-uppercase ds-product-page-add-to-cart">Dodaj do koszyka</button>
+                            </div>
+                        </div>
                     </div>
                     <div className="ds-hr"></div>
                     <div className="ds-product-page-desc">
                         Opis
                     </div>
                     <div className="ds-product-page-related">
-                        <h3 className="text-uppercase ds-product-page-related-header">Podobne produkty</h3>
+                        <h3 className="text-uppercase ds-product-page-related-header ds-text-large">Podobne produkty</h3>
                         <Prompt/>
                     </div>
                 </div>
