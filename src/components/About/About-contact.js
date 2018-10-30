@@ -22,7 +22,7 @@ const AboutContact = () => (
                             </div>
                             <div className="row">
                                 <div className="col ds-form-group">
-                                    <label className="text-white" for="msg">Treść wiadomości</label>
+                                    <label className="text-white" htmlFor="msg">Treść wiadomości</label>
                                     <textarea className="form-control ds-contact-form-control" id="msg" cols="30" rows="2"></textarea>
                                 </div>
                             </div>

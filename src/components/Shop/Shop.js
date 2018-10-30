@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search.js';
 import ShopList from './Shop-list';
-import ShopPagination from './Shop-paginacja';
+import Pagination from '../Pagination';
 
 const Shop = () => (
 
@@ -16,7 +16,7 @@ const Shop = () => (
                 </div>
         <Search/>
         <ShopList/>
-        <ShopPagination/>
+        <Pagination/>
         </div>
 
     );

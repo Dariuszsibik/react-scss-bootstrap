@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from './../News-search.js';
-import Archiwum from './../News-archive.js';
+import Archive from './../News-archive.js';
 import Popular from './../News-popular';
 import Kategorie from './../News-category';
 import Komentarze from './Entry-comment';
@@ -23,7 +23,7 @@ const Wpis = () => (
                     </div>
                     <div className="col-lg-4">
                         <Search/>
-                        <Archiwum/>
+                        <Archive/>
                         <Popular/>
                         <Kategorie/>
                     </div>

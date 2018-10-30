@@ -1,7 +1,7 @@
 import React from 'react';
 import PortfolioNav from './Portfolio-nav';
 import PortfolioBox from './Portfolio-box';
-import Pagination from './Portfolio-paginacja';
+import Pagination from '../Pagination';
 
 const Portfolio = () => (
 

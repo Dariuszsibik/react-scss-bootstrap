@@ -5,8 +5,8 @@ import Lists from './News-list.js';
 import Search from './News-search.js';
 import Archiwum from './News-archive';
 import Popular from './News-popular.js';
-import category from './News-category.js';
-import Pagination from './News-pagination.js';
+import Category from './News-category.js';
+import Pagination from '../Pagination.js';
 
 const News = () => (
 
@@ -29,7 +29,7 @@ const News = () => (
                         <Search/>
                         <Archiwum/>
                         <Popular/>
-                        <category/>
+                        <Category/>
                     </div>
                 </div>
             </div>
