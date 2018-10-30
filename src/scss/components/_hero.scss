@@ -1,7 +1,7 @@
 .ds-hero {
     position: relative;
     margin-bottom: 0;
-    background: url('../images/banner3.jpg') 50% 50% no-repeat;
+    background: url('../images/bg/top-bg.jpg') 50% 50% no-repeat;
     background-size: cover;
     &:after {
         @include bg-overlay($ds-black,

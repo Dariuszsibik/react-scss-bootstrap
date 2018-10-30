@@ -11,21 +11,21 @@ class Hero extends Component {
 
                 <div className="jumbotron text-center ds-hero">
                     <div className="container ds-hero-content">
-                        <h1 className="text-white ds-hero-header">Tekst</h1>
+                        <h1 className="text-white ds-hero-header">Architektura wnętrz</h1>
                         <img className="img-fluid ds-hero-subheader" src={Design} alt=""></img>
                         <div className="d-flex justify-content-center">
                             <span className="bg-primary text-center ds-social-box">
-                                <a href="https://www.facebook.com/dariusz.sibik">
+                                <a href="/">
                                     <img src={SocialIconFb} alt="social" />
                                 </a>
                             </span>
                             <span className="bg-primary text-center ds-social-box">
-                                <a href="https://www.facebook.com/dariusz.sibik">
+                                <a href="/">
                                     <img src={SocialIconLin} alt="social" />
                                 </a>
                             </span>
                             <span className="bg-primary text-center ds-social-box">
-                                <a href="https://www.facebook.com/dariusz.sibik">
+                                <a href="/">
                                     <img src={SocialIconGit} alt="social" />
                                 </a>
                             </span>
