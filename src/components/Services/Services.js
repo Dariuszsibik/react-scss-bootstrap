@@ -10,7 +10,7 @@ const Service = () => (
             <div className="container">
                 <div className="ds-section-header">
                     <h2 className="text-uppercase">Nasze Usługi</h2>
-                    <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, </p>
+                    <p>Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing., </p>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-4">
@@ -22,7 +22,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
@@ -39,7 +39,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
@@ -56,7 +56,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
@@ -73,7 +73,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
@@ -90,7 +90,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
@@ -107,7 +107,7 @@ const Service = () => (
                                 </div>
                                 <div className="text-uppercase ds-services-box-title">
                                     <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet </span>
+                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
                                 </div>
                             </div>
                             <div className="d-block ds-services-box-text">
