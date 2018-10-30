@@ -5,8 +5,9 @@ import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
 import Welcome from './components/Welcome/Welcome';
-import Aktualnosci from './components/Aktualnosci/Aktualnosci';
-import Wpis from './components/Aktualnosci/Wpisy/Wpis';
+import Services from './components/Services/Services';
+import News from './components/News/News';
+import Entry from './components/News/Entry/Entry';
 import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Shop from './components/Shop/Shop.js';
@@ -29,12 +30,12 @@ class App extends Component {
             <Hero />
             <Switch>
                 <Route exact path='/' component={Welcome} />
-                <Route exact path='/start' component={Welcome} />
+                <Route exact path='/welcome' component={Welcome} />
                 <Route path='/realizacje' component={Portfolio} />
-                <Route path='/usluga' component={Aktualnosci} />
-                <Route path='/aktualnosci' component={Aktualnosci} />
-                <Route path='/first' component={Wpis} />
-                <Route path='/second' component={Wpis} />
+                <Route path='/usluga' component={Services} />
+                <Route path='/aktualnosci' component={News} />
+                <Route path='/first' component={Entry} />
+                <Route path='/second' component={Entry} />
                 <Route path='/sklep' component={Shop} />
                 <Route path='/product' component={Product} />
                 <Route path='/onas' component={About} />

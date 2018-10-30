@@ -1,14 +1,14 @@
 import React from 'react';
 import WidokSiatki from '../../images/ui/view-grid.png';
 import WidokListy from '../../images/ui/view-list.png';
-import Lists from './Aktualnosci-list.js';
-import Search from './Aktualnosci-search.js';
-import Archiwum from './Aktualnosci-archiwum.js';
-import Popular from './Aktualnosci-popularne.js';
-import Kategorie from './Aktualnosci-kategorie.js';
-import Pagination from './Aktualnosci-paginacja.js';
+import Lists from './News-list.js';
+import Search from './News-search.js';
+import Archiwum from './News-archive';
+import Popular from './News-popular.js';
+import category from './News-category.js';
+import Pagination from './News-pagination.js';
 
-const Aktualnosci = () => (
+const News = () => (
 
         <div className="ds-post-list-page">
             <div className="container">
@@ -29,11 +29,11 @@ const Aktualnosci = () => (
                         <Search/>
                         <Archiwum/>
                         <Popular/>
-                        <Kategorie/>
+                        <category/>
                     </div>
                 </div>
             </div>
         </div>
 
     );
-    export default Aktualnosci;
+    export default News;

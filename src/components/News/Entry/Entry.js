@@ -1,10 +1,10 @@
 import React from 'react';
-import Search from './../Aktualnosci-search.js';
-import Archiwum from './../Aktualnosci-archiwum.js';
-import Popular from './../Aktualnosci-popularne.js';
-import Kategorie from './../Aktualnosci-kategorie.js';
-import Komentarze from './Wpis-komentarze.js';
-import Formularz from './Wpis-formularz';
+import Search from './../News-search.js';
+import Archiwum from './../News-archive.js';
+import Popular from './../News-popular';
+import Kategorie from './../News-category';
+import Komentarze from './Entry-comment';
+import Formularz from './Entry-form';
 import Wpis1 from './Wpis1';
 
 const Wpis = () => (
