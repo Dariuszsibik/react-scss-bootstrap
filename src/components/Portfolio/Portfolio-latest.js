@@ -12,7 +12,7 @@ import React, {Component} from 'react';
                 let textClassName = this.props.isHover(1)? 'text-center text-white ds-portfolio-box-text ' : 'd-none';
                 let imgs = this.props.data.intro.map((el, i) => <img
                                                                     key={i}
-                                                                    className="img-fluid"
+                                                                    className="img-fluidimg-fluid ds-front-page-portfolio-last"
                                                                     src={el}
                                                                     alt="Realizacja"
                                                                 />)
