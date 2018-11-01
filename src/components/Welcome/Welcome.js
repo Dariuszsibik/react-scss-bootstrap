@@ -2,7 +2,6 @@ import React from 'react';
 import Aktualnosci from './Aktualnosci';
 import Realizacje from './Realizacje';
 import Services from '../Services/Services';
-import Service from '../Services/Service';
 import WelcomeImg from '../../images/pages/front-page-welcome.png';
 import IkonaWnetrz from '../../images/projekt-wnetrz-ikona.png';
 import IkonaLokale from '../../images/projekt-lokale-ikona.png';
@@ -58,35 +57,6 @@ const Welcome = () => (
             <Aktualnosci/>
             <Realizacje/>
             <Services/>
-            <section className="ds-front-page-services">
-            <div className="container">
-                <div className="ds-section-header">
-                    <h2 className="text-uppercase">Nasze Usługi</h2>
-                    <p>Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing., </p>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Service name='Projektowanie wnętrz'/>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         </section>
 
     );

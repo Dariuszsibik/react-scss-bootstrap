@@ -1,123 +1,103 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Service from './Service';
 
-import Uslugi1 from '../../images/service-1.jpg';
-import Uslugi2 from '../../images/service-2.jpg';
-import Uslugi3 from '../../images/service-3.jpg';
+class Services extends Component {
+    constructor() {
+        super();
+        this.state = {
+          selectedServices: 0,
+        };
+    }
+      
+    isActive(id) {
+        return this.state.selectedServices === id;
+    }
+      
+    setActiveTab(SelectedServices) {
+        this.state.selectedServices===SelectedServices?
+            this.setState({ selectedServices: 0 })
+            : this.setState({ selectedServices: SelectedServices });
+    }
 
-const Service = () => (
+    render() {
+        var total = data.services.total;
 
-        <section className="ds-front-page-services">
+        let RenderServices = total.map((el, i) => <Service 
+                                                key={i}
+                                                name={el.name} 
+                                                img={el.img}
+                                                description={el.description}
+                                                text={el.text}
+                                                isActive={this.isActive(el.id)}
+                                                onActiveTab={this.setActiveTab.bind(this, el.id)}
+                                            />
+                                    )
+
+        return (
+
+            <section className="ds-front-page-services">
             <div className="container">
                 <div className="ds-section-header">
                     <h2 className="text-uppercase">Nasze Usługi</h2>
-                    <p>Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing., </p>
+                    <p>Kliknij aby zobaczyć szczegóły, </p>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi1} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi2} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi3} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow active"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi1} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi2} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        <div className="ds-services-box">
-                            <div className="d-flex ds-services-box-top">
-                                <div className="ds-services-box-shadow"></div>
-                                <div className="d-flex ds-services-box-img">
-                                    <img src={Uslugi3} alt="usługa 1"/>
-                                </div>
-                                <div className="text-uppercase ds-services-box-title">
-                                    <span className="d-block ds-services-box-header">Projektowanie wnętrz</span>
-                                    <span className="d-blick text-muted ds-text-small">Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing. </span>
-                                </div>
-                            </div>
-                            <div className="d-block ds-services-box-text">
-                                <p className="ds-text-small">Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu</p>
-                            </div>
-                        </div>
-                    </div>
+                    {RenderServices}
                 </div>
             </div>
-        </section>
+            </section>
 
-    );
-    export default Service;
+            );
+    }
+}
+
+export default Services;
+
+const data = {
+    services: {
+      total: [
+        { 
+            id: 1,
+            name: "Projektowanie wnętrz",
+            img: "./images/services/service-2.jpg" ,
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        { 
+            id: 2,
+            name: "Projektowanie Płotów",
+            img: "./images/services/service-3.jpg",
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            id: 3, 
+            name: "Projektowanie Domów",
+            img: "./images/services/service-4.jpg",
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        { 
+            id: 4, 
+            name: "Projektowanie mieszkań",
+            img: "./images/services/service-1.jpg",
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            id: 5,
+            name: "Projektowanie wnętrz",             
+            img: "./images/services/service-3.jpg",
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            id: 6,
+            name: "Projektowanie wnętrz",
+            img: "./images/services/service-2.jpg",
+            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
+            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+      ]
+    }
+  }
