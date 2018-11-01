@@ -10,7 +10,7 @@ class Services extends Component {
     }
       
     isActive(id) {
-        return this.state.selectedServices === id;
+    return this.state.selectedServices === id;
     }
       
     setActiveTab(SelectedServices) {
