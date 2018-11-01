@@ -5,20 +5,8 @@ class PortfolioBox extends Component {
     constructor() {
         super();
         this.state = {
-            hoverPortfolio: 1,
         };
     }
-
-        isHover = (id) => {
-            return this.state.hoverPortfolio === id;
-        }
-        mouseEnter(id) {
-            this.setState({ hoverPortfolio: id });
-        }
-
-        mouseLeave() {
-            this.setState({ hoverPortfolio: 0 });
-        }
 
         render() {
             let RenderBoxs = this.props.data.map((el, i) => <PortfolioItem
@@ -29,9 +17,9 @@ class PortfolioBox extends Component {
                                                                  location={el.location}
                                                                  area={el.area}
                                                                  value={el.value}
-                                                                 mouseEnter={this.mouseEnter.bind(this, el.id)}
-                                                                 mouseLeave={this.mouseLeave.bind(this, el.id)}
-                                                                 isHover={this.isHover(el.id)}
+                                                                 mouseEnter={this.props.mouseEnter.bind(this, el.id)}
+                                                                 mouseLeave={this.props.mouseLeave.bind(this, el.id)}
+                                                                 isHover={this.props.isHover(el.id)}
                                                 />
                                         )
         return(
