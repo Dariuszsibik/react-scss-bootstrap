@@ -1,0 +1,47 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "name": "Projektowanie wnętrz",
+            "img": "./images/services/service-2.jpg" ,
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            "id": 2,
+            "name": "Projektowanie Płotów",
+            "img": "./images/services/service-3.jpg",
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            "id": 3, 
+            "name": "Projektowanie Domów",
+            "img": "./images/services/service-4.jpg",
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        { 
+            "id": 4, 
+            "name": "Projektowanie mieszkań",
+            "img": "./images/services/service-1.jpg",
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            "id": 5,
+            "name": "Projektowanie wnętrz",             
+            "img": "./images/services/service-3.jpg",
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        },
+        {
+            "id": 6,
+            "name": "Projektowanie wnętrz",
+            "img": "./images/services/service-2.jpg",
+            "description": "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
+            "text": "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
+        }
+      ]
+
+}
