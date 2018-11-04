@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 class Service extends Component {
     render() {
+
         let ServiceClassName = this.props.isActive ? 'ds-services-box-shadow active': 'ds-services-box-shadow';
         let TextClassName = this.props.isActive ? 'ds-text-small active': 'd-none';
         let NameClassName = this.props.isActive ? 'd-block ds-services-box-header text-primary': 'd-block ds-services-box-header';

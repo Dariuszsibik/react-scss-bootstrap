@@ -1,0 +1,12 @@
+.async-status-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+  }
+
+  .error-message {
+    font-size: 1.6em;
+    margin: 1rem 1rem;
+  }

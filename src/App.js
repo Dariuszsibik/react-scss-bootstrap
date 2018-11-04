@@ -12,6 +12,8 @@ import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Shop from './components/Shop/Shop.js';
 import Product from './components/Shop/Product/Product.js';
+import Spinner from 'react-spinkit';
+
 import {
   HashRouter,
   Route,

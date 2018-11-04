@@ -1,18 +1,41 @@
 import React, {Component} from 'react';
 import Service from './Service';
+import FetchError from '../shared/FetchError';
+import LoadingSpinner from '../shared/LoadingSpinner';
+import axios from 'axios';
+
+const API_URL = `${
+    process.env.PUBLIC_URL
+  }/api/services.json`;
 
 class Services extends Component {
     constructor() {
         super();
         this.state = {
           selectedServices: 0,
+          dataService: [],
+          loading: true,
+          error: false,
         };
     }
-      
+
+    componentDidMount() {
+        axios
+            .get(API_URL)
+            .then(({ data: { results } }) => {
+                setTimeout(() => {
+                    this.setState({ dataService: results, loading: false });
+                });
+            })
+            .catch(error => {
+                this.setState({ error });
+             });
+    }
+
     isActive(id) {
     return this.state.selectedServices === id;
     }
-      
+
     setActiveTab(SelectedServices) {
         this.state.selectedServices===SelectedServices?
             this.setState({ selectedServices: 0 })
@@ -20,11 +43,16 @@ class Services extends Component {
     }
 
     render() {
-        var total = data.services.total;
 
-        let RenderServices = total.map((el, i) => <Service 
+        if (this.state.error) {
+            return <FetchError />;
+        } else if (this.state.loading) {
+            return <LoadingSpinner />;
+        }
+
+        let RenderServices = this.state.dataService.map((el, i) => <Service
                                                 key={i}
-                                                name={el.name} 
+                                                name={el.name}
                                                 img={el.img}
                                                 description={el.description}
                                                 text={el.text}
@@ -32,7 +60,6 @@ class Services extends Component {
                                                 onActiveTab={this.setActiveTab.bind(this, el.id)}
                                             />
                                     )
-
         return (
 
             <section className="ds-front-page-services">
@@ -52,52 +79,3 @@ class Services extends Component {
 }
 
 export default Services;
-
-const data = {
-    services: {
-      total: [
-        { 
-            id: 1,
-            name: "Projektowanie wnętrz",
-            img: "./images/services/service-2.jpg" ,
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-        { 
-            id: 2,
-            name: "Projektowanie Płotów",
-            img: "./images/services/service-3.jpg",
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-        {
-            id: 3, 
-            name: "Projektowanie Domów",
-            img: "./images/services/service-4.jpg",
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-        { 
-            id: 4, 
-            name: "Projektowanie mieszkań",
-            img: "./images/services/service-1.jpg",
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-        {
-            id: 5,
-            name: "Projektowanie wnętrz",             
-            img: "./images/services/service-3.jpg",
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-        {
-            id: 6,
-            name: "Projektowanie wnętrz",
-            img: "./images/services/service-2.jpg",
-            description: "Do quis deserunt non nisi ad proident proident cillum Lorem adipisicing.",       
-            text: "Lorem Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsuLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsu Lorem ipsum dolor sit amet, Lorem ipsu"
-        },
-      ]
-    }
-  }
