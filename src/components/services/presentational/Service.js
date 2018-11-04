@@ -6,10 +6,9 @@ class Service extends Component {
         let ServiceClassName = this.props.isActive ? 'ds-services-box-shadow active': 'ds-services-box-shadow';
         let TextClassName = this.props.isActive ? 'ds-text-small active': 'd-none';
         let NameClassName = this.props.isActive ? 'd-block ds-services-box-header text-primary': 'd-block ds-services-box-header';
-
         return (
             <div className="col-md-6 col-lg-4">
-            <div className="ds-services-box" onClick={ this.props.onActiveTab }>
+            <div className="ds-services-box" onClick={ this.props.setActiveService }>
                 <div className="d-flex ds-services-box-top">
                     <div className={ServiceClassName}></div>
                     <div className="d-flex ds-services-box-img">

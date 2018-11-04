@@ -1,22 +1,28 @@
 import React, {Component} from 'react';
-import Service from './Service';
-import FetchError from '../shared/FetchError';
-import LoadingSpinner from '../shared/LoadingSpinner';
 import axios from 'axios';
+import ServicesContainer from './containers/Services-container.js'
+import withHandleError from '../shared/hoc/withHandleError';
+import withLoading from '../shared/hoc/withLoading';
+import {compose} from 'recompose';
 
 const API_URL = `${
     process.env.PUBLIC_URL
   }/api/services.json`;
 
+const ServicesWithHandleErrorAndLoading = compose(
+    withLoading,
+    withHandleError,
+    )(ServicesContainer);
+
 class Services extends Component {
     constructor() {
         super();
         this.state = {
-          selectedServices: 0,
           dataService: [],
           loading: true,
           error: false,
         };
+
     }
 
     componentDidMount() {
@@ -32,46 +38,25 @@ class Services extends Component {
              });
     }
 
-    isActive(id) {
-    return this.state.selectedServices === id;
-    }
-
-    setActiveTab(SelectedServices) {
-        this.state.selectedServices===SelectedServices?
-            this.setState({ selectedServices: 0 })
-            : this.setState({ selectedServices: SelectedServices });
-    }
-
     render() {
+        const { dataService, loading, error } = this.state;
 
-        if (this.state.error) {
-            return <FetchError />;
-        } else if (this.state.loading) {
-            return <LoadingSpinner />;
-        }
-
-        let RenderServices = this.state.dataService.map((el, i) => <Service
-                                                key={i}
-                                                name={el.name}
-                                                img={el.img}
-                                                description={el.description}
-                                                text={el.text}
-                                                isActive={this.isActive(el.id)}
-                                                onActiveTab={this.setActiveTab.bind(this, el.id)}
-                                            />
-                                    )
         return (
 
             <section className="ds-front-page-services">
-            <div className="container">
-                <div className="ds-section-header">
-                    <h2 className="text-uppercase">Nasze Usługi</h2>
-                    <p>Kliknij aby zobaczyć szczegóły, </p>
+                <div className="container">
+                    <div className="ds-section-header">
+                        <h2 className="text-uppercase">Nasze Usługi</h2>
+                        <p>Kliknij aby zobaczyć szczegóły, </p>
+                    </div>
+                    <div className="row">
+                        <ServicesWithHandleErrorAndLoading
+                            dataService={dataService}
+                            loading={loading}
+                            error={error}
+                        />
+                    </div>
                 </div>
-                <div className="row">
-                    {RenderServices}
-                </div>
-            </div>
             </section>
 
             );

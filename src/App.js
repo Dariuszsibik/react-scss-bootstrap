@@ -5,14 +5,13 @@ import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
 import Welcome from './components/Welcome/Welcome';
-import Services from './components/Services/Services';
+import Services from './components/services/Services';
 import News from './components/News/News';
 import Entry from './components/News/Entry/Entry';
 import About from './components/About/About.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Shop from './components/Shop/Shop.js';
 import Product from './components/Shop/Product/Product.js';
-import Spinner from 'react-spinkit';
 
 import {
   HashRouter,
