@@ -8,6 +8,12 @@
     padding: 70px 0 75px;
 }
 
+.ds-front-page-portfolio-last:hover {
+    border: 2px solid $ds-accent-color;
+    opacity: .7;
+    @include ds-basic-transition;
+}
+
 .ds-front-page-portfolio-last:last-child {
     margin-top: 29px;
 }
