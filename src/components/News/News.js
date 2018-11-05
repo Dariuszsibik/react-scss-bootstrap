@@ -1,39 +1,49 @@
-import React from 'react';
-import WidokSiatki from '../../images/ui/view-grid.png';
-import WidokListy from '../../images/ui/view-list.png';
-import Lists from './News-list.js';
-import Search from './News-search.js';
-import Archiwum from './News-archive';
-import Popular from './News-popular.js';
-import Category from './News-category.js';
-import Pagination from '../Pagination.js';
+import React, {Component} from 'react';
+import NewsContainer from './containers/News-container';
+import withHandleError from '../shared/hoc/withHandleError';
+import withLoading from '../shared/hoc/withLoading';
+import {compose} from 'recompose';
 
-const News = () => (
+const API_URL = `${
+    process.env.PUBLIC_URL
+  }/api/news.json`;
 
-        <div className="ds-post-list-page">
-            <div className="container">
-                <div className="row">
-                    <div className="col text-center">
-                        <div className="ds-view-switcher">
-                            <a href="/"><img src={WidokSiatki} alt="widok siatki"/></a>
-                            <a href="/"><img src={WidokListy} alt="widok listy"/></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-8">
-                        <Lists/>
-                        <Pagination/>
-                    </div>
-                    <div className="col-lg-4">
-                        <Search/>
-                        <Archiwum/>
-                        <Popular/>
-                        <Category/>
-                    </div>
-                </div>
-            </div>
-        </div>
+const NewsContainerWithHandleErrorAndLoading = compose(
+    withHandleError,
+    withLoading,
+    )(NewsContainer);
 
-    );
+class News extends Component {
+    constructor() {
+        super();
+        this.state = {
+            dataNews: [],
+            loading: true,
+            error: false
+        };
+    }
+
+    componentDidMount() {
+        fetch(API_URL)
+            .then(res =>  res.json())
+            .then(json => {
+                this.setState({ dataNews: json.result, loading: false });
+            })
+            .catch(error => {
+                this.setState({ error });
+            });
+    }
+
+    render() {
+        const { dataNews, loading, error } = this.state;
+
+        return(
+            <NewsContainerWithHandleErrorAndLoading
+            dataNews={dataNews}
+            loading={loading}
+            error={error}
+        />
+        )
+    }
+};
     export default News;

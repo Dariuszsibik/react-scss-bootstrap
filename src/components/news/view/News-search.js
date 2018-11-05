@@ -1,5 +1,5 @@
 import React from 'react';
-import IconSearch from '../../images/ui/icon-top-search.png';
+import IconSearch from '../../../images/ui/icon-top-search.png';
 
 const Search = () => (
 

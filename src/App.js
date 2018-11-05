@@ -4,14 +4,14 @@ import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
 import Footer from './components/Footer.js';
 import Copyright from './components/Copyright';
-import Welcome from './components/Welcome/Welcome';
+import Welcome from './components/welcome/Welcome';
 import Services from './components/services/Services';
-import News from './components/News/News';
-import Entry from './components/News/Entry/Entry';
-import About from './components/About/About.js';
+import News from './components/news/News';
+import Entry from './components/news/entry/Entry';
+import About from './components/about/About.js';
 import Portfolio from './components/portfolio/Portfolio.js';
-import Shop from './components/Shop/Shop.js';
-import Product from './components/Shop/Product/Product.js';
+import Shop from './components/shop/Shop.js';
+import Product from './components/shop/Product/Product.js';
 
 import {
   HashRouter,

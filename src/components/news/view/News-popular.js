@@ -1,7 +1,7 @@
 import React from 'react';
-import Mini1 from '../../images/posts/post-mini-1.png';
-import Mini2 from '../../images/posts/post-mini-2.png';
-import Mini3 from '../../images/posts/post-mini-3.png';
+import Mini1 from '../../../images/posts/post-mini-1.png';
+import Mini2 from '../../../images/posts/post-mini-2.png';
+import Mini3 from '../../../images/posts/post-mini-3.png';
 
 const Popular = () => (
 

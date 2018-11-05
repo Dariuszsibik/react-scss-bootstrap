@@ -1,10 +1,23 @@
 import React, {Component} from 'react';
 import PortfolioBox from './containers/Portfolio-box';
 import PortfolioLatest from './containers/Portfolio-latest';
+import withHandleError from '../shared/hoc/withHandleError';
+import withLoading from '../shared/hoc/withLoading';
+import {compose} from 'recompose';
 
 const API_URL = `${
     process.env.PUBLIC_URL
   }/api/portfolio.json`;
+
+const PortfolioBoxWithHandleErrorAndLoading = compose(
+    withHandleError,
+    withLoading,
+    )(PortfolioBox);
+
+const PortfolioLatestWithHandleErrorAndLoading = compose(
+    withHandleError,
+    withLoading,
+    )(PortfolioLatest);
 
 class Portfolio extends Component {
     constructor() {
@@ -12,7 +25,9 @@ class Portfolio extends Component {
         this.state = {
             hoverPortfolio: 0,
             dataResult: [],
-            dataLates: []
+            dataLates: [],
+            loading: true,
+            error: false
         };
     }
 
@@ -44,17 +59,19 @@ class Portfolio extends Component {
         switch (this.props.site) {
             case 'portfolio':
                 return(
-                    <PortfolioBox
+                    <PortfolioBoxWithHandleErrorAndLoading
                         data={this.state.dataResult}
                         mouseEnter={this.mouseEnter.bind(this)}
                         mouseLeave={this.mouseLeave.bind(this)}
                         isHover={this.isHover.bind(this)}
+                        error={this.state.error}
+                        loading={this.state.loading}
                     />
                 )
 
             case 'welcome':
                 return(
-                    <PortfolioLatest
+                    <PortfolioLatestWithHandleErrorAndLoading
                         data={this.state.dataLates}
                         mouseEnter={this.mouseEnter.bind(this)}
                         mouseLeave={this.mouseLeave.bind(this)}
