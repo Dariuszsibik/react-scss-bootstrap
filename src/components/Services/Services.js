@@ -38,25 +38,13 @@ class Services extends Component {
 
     render() {
         const { dataService, loading, error } = this.state;
-        
+
         return (
-
-            <section className="ds-front-page-services">
-                <div className="container">
-                    <div className="ds-section-header">
-                        <h2 className="text-uppercase">Nasze Usługi</h2>
-                        <p>Kliknij aby zobaczyć szczegóły, </p>
-                    </div>
-                    <div className="row">
-                        <ServicesWithHandleErrorAndLoading
-                            dataService={dataService}
-                            loading={loading}
-                            error={error}
-                        />
-                    </div>
-                </div>
-            </section>
-
+            <ServicesWithHandleErrorAndLoading
+                dataService={dataService}
+                loading={loading}
+                error={error}
+            />
             );
     }
 }
