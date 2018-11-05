@@ -8,14 +8,17 @@ import React, {Component} from 'react';
         }
 
             render() {
+                let imgs = [];
                 let overlayClassName = this.props.isHover(1)? 'ds-portfolio-box-img ds-portfolio-img-overlay' : 'ds-portfolio-box-img';
                 let textClassName = this.props.isHover(1)? 'text-center text-white ds-portfolio-box-text ' : 'd-none';
-                let imgs = this.props.data.intro.map((el, i) => <img
+                if(this.props.data.intro){
+                    imgs = this.props.data.intro.map((el, i) => <img
                                                                     key={i}
                                                                     className="img-fluidimg-fluid ds-front-page-portfolio-last"
                                                                     src={el}
                                                                     alt="Realizacja"
-                                                                />)
+                                                               />)
+                }
                 return(
 
                     <div className="row">
