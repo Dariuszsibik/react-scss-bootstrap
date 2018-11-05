@@ -4,11 +4,18 @@ class PortfolioItem extends Component{
 
 
     render() {
-        let classNameOverlay = this.props.isHover? 'ds-portfolio-box-img ds-portfolio-img-overlay' : 'ds-portfolio-box-img';
-        let classNameText = this.props.isHover? 'text-center text-white ds-portfolio-box-text' : 'd-none';
+        let classNameOverlay = this.props.isHover?
+            'ds-portfolio-box-img ds-portfolio-img-overlay'
+        :   'ds-portfolio-box-img';
+        let classNameText = this.props.isHover?
+            'text-center text-white ds-portfolio-box-text'
+        :   'd-none';
 
         return (
-            <div className="ds-portfolio-item" onMouseEnter={this.props.mouseEnter} onMouseLeave={this.props.mouseLeave}>
+            <div className="ds-portfolio-item"
+                onMouseEnter={this.props.mouseEnter}
+                onMouseLeave={this.props.mouseLeave}
+            >
                 <div className={classNameOverlay}>
                     <img className="img-fluid " src={this.props.img} alt="Realizacja-1" />
                 </div>

@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import PortfolioNav from './Portfolio-nav';
-import PortfolioBox from './Portfolio-box';
-import Pagination from '../Pagination';
-import PortfolioLatest from './Portfolio-latest';
+import PortfolioBox from './containers/Portfolio-box';
+import PortfolioLatest from './containers/Portfolio-latest';
 
 const API_URL = `${
     process.env.PUBLIC_URL
@@ -32,6 +30,7 @@ class Portfolio extends Component {
     isHover = (id) => {
         return this.state.hoverPortfolio === id;
     }
+
     mouseEnter(id) {
         this.setState({ hoverPortfolio: id });
     }
@@ -45,18 +44,12 @@ class Portfolio extends Component {
         switch (this.props.site) {
             case 'portfolio':
                 return(
-                    <div className="ds-portfolio-page">
-                        <div className="container">
-                            <PortfolioNav />
-                            <PortfolioBox
-                                    data={this.state.dataResult}
-                                    mouseEnter={this.mouseEnter.bind(this)}
-                                    mouseLeave={this.mouseLeave.bind(this)}
-                                    isHover={this.isHover.bind(this)}
-                            />
-                            <Pagination />
-                        </div>
-                    </div>
+                    <PortfolioBox
+                        data={this.state.dataResult}
+                        mouseEnter={this.mouseEnter.bind(this)}
+                        mouseLeave={this.mouseLeave.bind(this)}
+                        isHover={this.isHover.bind(this)}
+                    />
                 )
 
             case 'welcome':
@@ -67,8 +60,8 @@ class Portfolio extends Component {
                         mouseLeave={this.mouseLeave.bind(this)}
                         isHover={this.isHover.bind(this)}
                     />
-
                 )
+                
             default:
                return(<div>Portfolio</div>)
         }
