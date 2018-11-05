@@ -1,5 +1,4 @@
 import React from 'react';
-import Aktualnosci1 from '../../../images/posts/post-1.jpg';
 import DateIcon from '../../../images/ui/date-icon.png';
 
 const Wpis1 = () => (
@@ -13,7 +12,7 @@ const Wpis1 = () => (
         </div>
         <div className="ds-post-box-body">
             <div className="ds-post-box-img">
-                <img className="img-fluid" src={Aktualnosci1} alt="post 1"/>
+                <img className="img-fluid" src="/images/news/post-1.jpg" alt="post 1"/>
             </div>
         </div>
     </div>

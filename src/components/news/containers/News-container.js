@@ -16,7 +16,16 @@ class NewsContainer extends Component {
     }
 
     render(){
-        console.log(this.props.dataNews)
+        let newsList = this.props.dataNews
+            .map((el, i) =>
+                <Lists
+                    key={el.id}
+                    date={el.date}
+                    title={el.title}
+                    description={el.description}
+                    img={el.imgLarge}
+                />)
+
         return(
 
         <div className="ds-post-list-page">
@@ -24,7 +33,7 @@ class NewsContainer extends Component {
                         <ViewGrid/>
                 <div className="row">
                     <div className="col-lg-8">
-                        <Lists/>
+                        {newsList}
                         <Pagination/>
                     </div>
                     <div className="col-lg-4">

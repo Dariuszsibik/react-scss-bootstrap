@@ -15,7 +15,7 @@
 	  "row4": "occaecat",
 	  "row5": "esse",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -34,7 +34,7 @@
 	  "row4": "id",
 	  "row5": "commodo",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": true
 	},
@@ -53,7 +53,7 @@
 	  "row4": "Lorem",
 	  "row5": "irure",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -72,7 +72,7 @@
 	  "row4": "pariatur",
 	  "row5": "sunt",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -91,7 +91,7 @@
 	  "row4": "dolore",
 	  "row5": "laboris",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -110,7 +110,7 @@
 	  "row4": "magna",
 	  "row5": "occaecat",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -129,7 +129,7 @@
 	  "row4": "exercitation",
 	  "row5": "aute",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -148,7 +148,7 @@
 	  "row4": "eu",
 	  "row5": "deserunt",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -167,7 +167,7 @@
 	  "row4": "veniam",
 	  "row5": "non",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -186,7 +186,7 @@
 	  "row4": "amet",
 	  "row5": "ad",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -205,7 +205,7 @@
 	  "row4": "in",
 	  "row5": "esse",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -224,7 +224,7 @@
 	  "row4": "in",
 	  "row5": "aliquip",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -243,7 +243,7 @@
 	  "row4": "aliquip",
 	  "row5": "nisi",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -262,7 +262,7 @@
 	  "row4": "qui",
 	  "row5": "aute",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -281,7 +281,7 @@
 	  "row4": "magna",
 	  "row5": "nostrud",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -300,7 +300,7 @@
 	  "row4": "officia",
 	  "row5": "aliqua",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -319,7 +319,7 @@
 	  "row4": "id",
 	  "row5": "magna",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -338,7 +338,7 @@
 	  "row4": "ex",
 	  "row5": "esse",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": true
 	},
@@ -357,7 +357,7 @@
 	  "row4": "voluptate",
 	  "row5": "aliquip",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -376,7 +376,7 @@
 	  "row4": "est",
 	  "row5": "dolor",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -395,7 +395,7 @@
 	  "row4": "id",
 	  "row5": "cupidatat",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -414,7 +414,7 @@
 	  "row4": "do",
 	  "row5": "do",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -433,7 +433,7 @@
 	  "row4": "veniam",
 	  "row5": "esse",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -452,7 +452,7 @@
 	  "row4": "occaecat",
 	  "row5": "cillum",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -471,7 +471,7 @@
 	  "row4": "nulla",
 	  "row5": "ullamco",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -490,7 +490,7 @@
 	  "row4": "mollit",
 	  "row5": "esse",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -509,7 +509,7 @@
 	  "row4": "eiusmod",
 	  "row5": "nostrud",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -528,7 +528,7 @@
 	  "row4": "nulla",
 	  "row5": "et",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -547,7 +547,7 @@
 	  "row4": "cillum",
 	  "row5": "nulla",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -566,7 +566,7 @@
 	  "row4": "non",
 	  "row5": "qui",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -585,7 +585,7 @@
 	  "row4": "et",
 	  "row5": "qui",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -604,7 +604,7 @@
 	  "row4": "culpa",
 	  "row5": "magna",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -623,7 +623,7 @@
 	  "row4": "ad",
 	  "row5": "minim",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -642,7 +642,7 @@
 	  "row4": "eiusmod",
 	  "row5": "ipsum",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -661,7 +661,7 @@
 	  "row4": "commodo",
 	  "row5": "mollit",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -680,7 +680,7 @@
 	  "row4": "ut",
 	  "row5": "excepteur",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -699,7 +699,7 @@
 	  "row4": "sit",
 	  "row5": "esse",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -718,7 +718,7 @@
 	  "row4": "mollit",
 	  "row5": "nisi",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": false
 	},
@@ -737,7 +737,7 @@
 	  "row4": "sit",
 	  "row5": "laborum",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -756,7 +756,7 @@
 	  "row4": "officia",
 	  "row5": "labore",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -775,7 +775,7 @@
 	  "row4": "incididunt",
 	  "row5": "dolor",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -794,7 +794,7 @@
 	  "row4": "veniam",
 	  "row5": "cupidatat",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -813,7 +813,7 @@
 	  "row4": "duis",
 	  "row5": "sunt",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": true
 	},
@@ -832,7 +832,7 @@
 	  "row4": "est",
 	  "row5": "quis",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -851,7 +851,7 @@
 	  "row4": "tempor",
 	  "row5": "laborum",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -870,7 +870,7 @@
 	  "row4": "do",
 	  "row5": "velit",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": true
 	},
@@ -889,7 +889,7 @@
 	  "row4": "ullamco",
 	  "row5": "qui",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -908,7 +908,7 @@
 	  "row4": "occaecat",
 	  "row5": "adipisicing",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -927,7 +927,7 @@
 	  "row4": "proident",
 	  "row5": "et",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -946,7 +946,7 @@
 	  "row4": "cupidatat",
 	  "row5": "veniam",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -965,7 +965,7 @@
 	  "row4": "eu",
 	  "row5": "dolore",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -984,7 +984,7 @@
 	  "row4": "in",
 	  "row5": "qui",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -1003,7 +1003,7 @@
 	  "row4": "exercitation",
 	  "row5": "id",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": false
 	},
@@ -1022,7 +1022,7 @@
 	  "row4": "pariatur",
 	  "row5": "et",
 	  "tag": "zielen",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-1.png",
 	  "isActive": true
 	},
@@ -1041,7 +1041,7 @@
 	  "row4": "anim",
 	  "row5": "est",
 	  "tag": "dokumentacja",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -1060,7 +1060,7 @@
 	  "row4": "laboris",
 	  "row5": "dolor",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -1079,7 +1079,7 @@
 	  "row4": "cillum",
 	  "row5": "dolore",
 	  "tag": "interior",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": true
 	},
@@ -1098,7 +1098,7 @@
 	  "row4": "sunt",
 	  "row5": "proident",
 	  "tag": "projektowanie",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -1117,7 +1117,7 @@
 	  "row4": "eiusmod",
 	  "row5": "consequat",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-2.jpg",
+	  "imgLarge": "/images/news/post-2.jpg",
 	  "imgSmall": "post-mini-3.png",
 	  "isActive": false
 	},
@@ -1136,7 +1136,7 @@
 	  "row4": "excepteur",
 	  "row5": "in",
 	  "tag": "architektura",
-	  "imgLarge": "/images/posts/post-1.jpg",
+	  "imgLarge": "/images/news/post-1.jpg",
 	  "imgSmall": "post-mini-2.png",
 	  "isActive": true
 	}
