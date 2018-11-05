@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 import ServicesContainer from './containers/Services-container.js'
 import withHandleError from '../shared/hoc/withHandleError';
 import withLoading from '../shared/hoc/withLoading';
@@ -10,8 +9,8 @@ const API_URL = `${
   }/api/services.json`;
 
 const ServicesWithHandleErrorAndLoading = compose(
-    withLoading,
     withHandleError,
+    withLoading,
     )(ServicesContainer);
 
 class Services extends Component {
@@ -26,21 +25,20 @@ class Services extends Component {
     }
 
     componentDidMount() {
-        axios
-            .get(API_URL)
-            .then(({ data: { results } }) => {
-                setTimeout(() => {
-                    this.setState({ dataService: results, loading: false });
-                });
+        fetch(API_URL)
+            .then(res =>  res.json())
+            .then(json => {
+                this.setState({ dataService: json.results, loading: false });
             })
             .catch(error => {
                 this.setState({ error });
-             });
+            });
     }
+
 
     render() {
         const { dataService, loading, error } = this.state;
-
+        
         return (
 
             <section className="ds-front-page-services">
