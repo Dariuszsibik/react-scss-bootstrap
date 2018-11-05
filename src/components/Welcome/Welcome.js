@@ -1,6 +1,6 @@
 import React from 'react';
 import Aktualnosci from './Aktualnosci';
-import Portfolio from '../Portfolio/Portfolio';
+import Portfolio from '../portfolio/Portfolio';
 import Services from '../services/Services';
 import WelcomeImg from '../../images/pages/front-page-welcome.png';
 import IkonaWnetrz from '../../images/projekt-wnetrz-ikona.png';

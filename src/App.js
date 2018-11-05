@@ -9,7 +9,7 @@ import Services from './components/services/Services';
 import News from './components/News/News';
 import Entry from './components/News/Entry/Entry';
 import About from './components/About/About.js';
-import Portfolio from './components/Portfolio/Portfolio.js';
+import Portfolio from './components/portfolio/Portfolio.js';
 import Shop from './components/Shop/Shop.js';
 import Product from './components/Shop/Product/Product.js';
 
