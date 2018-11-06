@@ -19,5 +19,5 @@ const Shop = () => (
         <Pagination/>
         </div>
 
-    );
-    export default Shop;
+);
+export default Shop;

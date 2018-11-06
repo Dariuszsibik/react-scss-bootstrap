@@ -11,7 +11,7 @@ import Entry from './components/news/entry/Entry';
 import About from './components/about/About.js';
 import Portfolio from './components/portfolio/Portfolio.js';
 import Shop from './components/shop/Shop.js';
-import Product from './components/shop/Product/Product.js';
+import Product from './components/shop/product/Product.js';
 
 import {
   HashRouter,

@@ -7,7 +7,7 @@ import Komentarze from './Entry-comment';
 import Formularz from './Entry-form';
 import Wpis1 from './Wpis1';
 
-const Wpis = () => (
+const Entry = () => (
 
         <div className="ds-post-page">
             <div className="container">
@@ -31,5 +31,5 @@ const Wpis = () => (
             </div>
         </div>
 
-    );
-    export default Wpis;
+);
+export default Entry;

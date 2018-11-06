@@ -67,5 +67,5 @@ const Welcome = () => (
         <Services />
     </section>
 
-    );
-    export default Welcome;
+);
+export default Welcome;
