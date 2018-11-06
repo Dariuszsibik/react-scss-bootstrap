@@ -12,7 +12,7 @@ const Wpis1 = () => (
         </div>
         <div className="ds-post-box-body">
             <div className="ds-post-box-img">
-                <img className="img-fluid" src="/images/news/post-1.jpg" alt="post 1"/>
+                <img className="img-fluid" src="./images/news/post-1.jpg" alt="post 1"/>
             </div>
         </div>
     </div>
