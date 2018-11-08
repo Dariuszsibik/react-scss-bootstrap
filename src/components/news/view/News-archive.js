@@ -1,13 +1,12 @@
 import React from 'react';
 
-const Archiwum = () => (
+const Archiwum = (props) => (
 
                     <div className="ds-post-widget">
                         <h4 className="text-uppercase ds-post-widget-header">Archiwum</h4>
                         <div className="w-75 ds-hr"></div>
                         <div className="ds-post-widget-archive">
-                            <h5 className="ds-post-widget-archive-header">2016</h5>
-                            <h5 className="ds-post-widget-archive-header">2017</h5>
+                            {props.years.map((el, i) => <h5 key={i} className="ds-post-widget-archive-header">{el}</h5>)}
                             <ul className="list-unstyled ds-post-widget-archive-list">
                                 <li className="ds-post-widget-list-item">
                                     <a href="/" className="ds-post-widget-link">Styczeń <span className="float-righ">(10)</span></a>

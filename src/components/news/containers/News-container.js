@@ -25,7 +25,11 @@ class NewsContainer extends Component {
                     description={el.description}
                     img={el.imgLarge}
                 />)
-
+        let years = this.props.dataNews
+            .map((el, i) => el.date.split("-")[2])
+            .filter((value, index, self) => self.indexOf(value) === index)
+            .sort();
+            
         return(
 
         <div className="ds-post-list-page">
@@ -38,7 +42,7 @@ class NewsContainer extends Component {
                     </div>
                     <div className="col-lg-4">
                         <Search/>
-                        <Archiwum/>
+                        <Archiwum years={years} />
                         <Popular/>
                         <Category/>
                     </div>
