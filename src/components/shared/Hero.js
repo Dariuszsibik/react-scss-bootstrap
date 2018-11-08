@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Design from '../images/design-subheader.png';
-import SocialIconFb from '../images/social/social-icon-fb.png';
-import SocialIconLin from '../images/social/social-icon-plus.png';
-import SocialIconGit from '../images/social/social-icon-twit.png';
+import Design from '../../images/design-subheader.png';
+import SocialIconFb from '../../images/social/social-icon-fb.png';
+import SocialIconLin from '../../images/social/social-icon-plus.png';
+import SocialIconGit from '../../images/social/social-icon-twit.png';
 
 
 class Hero extends Component {

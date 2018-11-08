@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
-import IconTopCart from '../images/ui/icon-top-cart.png';
-import IconTopSearch from '../images/ui/icon-top-search.png';
+import IconTopCart from '../../images/ui/icon-top-cart.png';
+import IconTopSearch from '../../images/ui/icon-top-search.png';
 
 
 class Header extends Component {

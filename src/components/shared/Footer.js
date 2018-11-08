@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import FooterIconEmail from '../images/ui/contact-footer-icon-email.png';
-import FooterIconPhone from '../images/ui/contact-footer-icon-phone.png';
-import FooterIconPin from '../images/ui/contact-footer-icon-pin.png';
-import SocialIconFb from '../images/social/social-icon-fb.png';
-import SocialIconLin from '../images/social/social-icon-plus.png';
-import SocialIconGit from '../images/social/social-icon-twit.png';
+import FooterIconEmail from '../../images/ui/contact-footer-icon-email.png';
+import FooterIconPhone from '../../images/ui/contact-footer-icon-phone.png';
+import FooterIconPin from '../../images/ui/contact-footer-icon-pin.png';
+import SocialIconFb from '../../images/social/social-icon-fb.png';
+import SocialIconLin from '../../images/social/social-icon-plus.png';
+import SocialIconGit from '../../images/social/social-icon-twit.png';
 
 
 class Footer extends Component {

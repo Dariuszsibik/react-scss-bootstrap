@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PortfolioItem from '../view/Portfolio-item';
 import PortfolioNav from '../view/Portfolio-nav';
-import Pagination from '../../Pagination';
+import Pagination from '../../shared/Pagination';
 
 class PortfolioBox extends Component {
     constructor() {

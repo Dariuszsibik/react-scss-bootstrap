@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './Search.js';
 import ShopList from './Shop-list';
-import Pagination from '../Pagination';
+import Pagination from '../shared/Pagination';
 
 const Shop = () => (
 

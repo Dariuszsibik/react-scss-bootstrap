@@ -5,7 +5,7 @@ import Archiwum from '../view/News-archive';
 import Popular from '../view/News-popular.js';
 import Category from '../view/News-category.js';
 import ViewGrid from '../view/News-grid.js';
-import Pagination from '../../Pagination.js';
+import Pagination from '../../shared/Pagination.js';
 
 class NewsContainer extends Component {
     constructor() {

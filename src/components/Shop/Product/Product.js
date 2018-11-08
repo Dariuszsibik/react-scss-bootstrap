@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from '../Search.js';
-import Pagination from '../../Pagination';
+import Pagination from '../../shared/Pagination';
 import Prompt from './Product-prompt';
 import ProductImg from '../../../images/pages/product-big.jpg';
 import ProductRating from '../../../images/ui/stars.png';

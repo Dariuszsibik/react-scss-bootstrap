@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './scss/index.scss'
-import Nav from './components/Nav.js';
-import Hero from './components/Hero.js';
-import Footer from './components/Footer.js';
-import Copyright from './components/Copyright';
+import Nav from './components/shared/Nav.js';
+import Hero from './components/shared/Hero.js';
+import Footer from './components/shared/Footer.js';
+import Copyright from './components/shared/Copyright';
 import Welcome from './components/welcome/Welcome';
 import Services from './components/services/Services';
 import News from './components/news/News';
